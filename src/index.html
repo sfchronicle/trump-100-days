@@ -18,16 +18,17 @@
 
     <%= t.include("partials/_nav.html") %>
 
-    <div class="hed">Trump's 100 Days in Office</div>
+    <div class="hed">President Trump's First 100 Days</div>
     <div class="chatter">This is a paragraph about how President Trump has had a very busy and drama-filled first 100 days in office. It is a collection of all of our very insightful, poignant, factual articles about everything that has transpired beginning with his inauguration.</div>
 
     <div class="filter-instructions">Click on the buttons below to see events that match a particular topic:</div>
     <div class="filter-container">
-      <div class="filter inauguration">Inauguration</div>
-      <div class="filter protests">Protests</div>
-      <div class="filter women">Women</div>
-      <div class="filter homeless">Homeless</div>
-      <div class="filter trade">Trade</div>
+      <div class="filter" id="inauguration">Inauguration</div>
+      <div class="filter" id="protests">Protests</div>
+      <div class="filter" id="women">Women</div>
+      <div class="filter" id="homeless">Homeless</div>
+      <div class="filter" id="trade">Trade</div>
+      <div class="filter" id="showall">All</div>
     </div>
 
     <% json.Days.forEach(function(dd){ %>
@@ -37,14 +38,14 @@
       <div class="event-wrapper">
         <% json.Events.forEach(function(d){ %>
           <% if (d.Day == dd.Day){ %>
-          <div class="event-item">
+          <div class="event-item active <%=[d.Topic].toString().toLowerCase().replace(',','')%>">
             <% console.log(d) %>
             <div class="event"><%=d.NewsEvent%></div>
             <div class="day">Day <%=d.Day%> ( <%=d.Date %> )</div>
             <% var array = [d.Topic].toString().split(','); %>
             <div class="tags">
               <% array.forEach(function(t){ %>
-                <span class="tag"><%=t%></span>
+                <div class="tag"><%=t%></div>
               <% }) %>
             </div>
             <div class="readme"><a href="<%=d.link%>" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i><%=d.Headline%></a></div>
