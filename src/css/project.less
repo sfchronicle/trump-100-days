@@ -1,0 +1,54 @@
+@red: #C91414;
+
+.logo-link {
+  padding-top: 9px;
+}
+
+.hed {
+  padding-top: 30px;
+  font-size: 30px;
+  color: @red;
+  font-family: @med-graphics;
+  @media @mobile {
+    font-size: 25px;
+  }
+}
+
+.event-wrapper {
+  text-align: center;
+}
+
+.divider {
+  width: 80%;
+  margin: auto;
+  border-bottom: 1px @dark-gray solid;
+  height: 2px;
+}
+
+.credits {
+  font-family: @block-graphics;
+  font-size: 14px;
+  .entry {
+    padding: 0;
+    padding-bottom: 15px;
+  }
+  @media @mobile {
+    padding: 0 20px;
+  }
+}
+
+.event-item {
+  padding-bottom: 30px;
+  .tag {
+    padding: 0 10px;
+    border: 2px solid @red;
+    border-radius: 5px;
+  }
+  .readme {
+    .fa-external-link {
+      padding-right: 10px;
+    }
+    // font-style: italic;
+    cursor: pointer;
+  }
+}

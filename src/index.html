@@ -18,9 +18,24 @@
 
     <%= t.include("partials/_nav.html") %>
 
+    <div class="hed">Trump's 100 Days in Office</div>
+    <div class="chatter">Discover what he has done in a matter of days.</div>
 
-    <div class="container">
-      <p>Content goes here...</p>
+    <div class="event-wrapper">
+      <% json.Days.forEach(function(d){ %>
+        <div class="event-item">
+          <% console.log(d) %>
+          <div class="day">Day <%=d.Day%> ( <%=d.Date %> )</div>
+          <div class="event"><%=d.NewsEvent%></div>
+          <% var array = [d.Topic].toString().split(','); %>
+          <div class="tags">
+            <% array.forEach(function(t){ %>
+              <span class="tag"><%=t%></span>
+            <% }) %>
+          </div>
+          <div class="readme"><a href="<%=d.link%>" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i><%=d.Headline%></a></div>
+        </div>
+      <% }); %>
     </div>
 
     <%= t.include("partials/_footer.html") %>
