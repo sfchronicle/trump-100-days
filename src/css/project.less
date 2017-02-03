@@ -1,11 +1,66 @@
 @red: #C91414;
 
+// @inauguration:
+// @protests:
+// @trumpvoters:
+// @women:
+// @media_tag:
+// @homeless:
+// @federalaid:
+// @trade:
+// @environment:
+// @election:
+// @voterfraud:
+// @caresist:
+// @EO:
+// @twitter:
+// @wall:
+// @immigration:
+// @scotus:
+// @democrats:
+// @cabinet:
+// @cybersecurity:
+// @siliconvalley:
+// @uber:
+// @AG:
+// @blacks:
+
+body {
+  font-family: @block-graphics;
+  font-size: 16px;
+}
+
+.filter-instructions {
+  text-align: center;
+  padding-bottom: 5px;
+}
+.filter-container {
+  text-align: center;
+  .filter {
+    cursor: pointer;
+    display: inline-block;
+    padding: 3px 10px;
+    border: 1px solid @red;
+    border-radius: 5px;
+    color: @red;
+    &:hover {
+      color: white;
+      background: @red;
+    }
+    &.hover {
+      color: white;
+      background: @red;
+    }
+  }
+}
+
+
 .logo-link {
   padding-top: 9px;
 }
 
 .hed {
-  padding-top: 30px;
+  padding-top: 50px;
   font-size: 30px;
   color: @red;
   font-family: @med-graphics;
@@ -14,8 +69,30 @@
   }
 }
 
+.chatter {
+  max-width: 900px;
+  padding: 0 30px;
+}
+
 .event-wrapper {
   text-align: center;
+  .display-flex;
+  .flex-wrap(wrap);
+}
+
+.day-hed {
+  font-family: @med-graphics;
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+.day-text {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 50px;
+  padding-bottom: 20px;
 }
 
 .divider {
@@ -38,11 +115,24 @@
 }
 
 .event-item {
+  font-family: @block-graphics;
   padding-bottom: 30px;
+  font-size: 16px;
+  .flex(0 0 33%);
+  padding: 30px;
+  .tag, .day, .tags, .readme {
+    padding-bottom: 10px;
+  }
+  .event {
+    font-family: @med-graphics;
+    font-size: 20px;
+  }
   .tag {
-    padding: 0 10px;
-    border: 2px solid @red;
+    padding: 3px 10px;
+    background: @red;
     border-radius: 5px;
+    color: white;
+    margin: 2px;
   }
   .readme {
     .fa-external-link {

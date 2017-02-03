@@ -1,581 +1,62 @@
 [
   {
     "Day": 1,
-    "Date": "Jan. 20",
-    "Key Event?": "Yes",
-    "Content Type": "news",
-    "Topic": "Inauguration",
-    "NewsEvent": "Inauguration",
-    "Headline": "Trump takes office, promises an 'America first' approach",
-    "Link": "http://www.sfchronicle.com/nation/article/Trump-takes-office-promises-an-America-10872851.php",
-    "Visual": "http://ww3.hdnux.com/photos/56/51/50/12229122/5/920x1240.jpg"
-  },
-  {
-    "Day": 1,
-    "Date": "Jan. 20",
-    "Key Event?": "Yes",
-    "Content Type": "analysis",
-    "Topic": "Inauguration, Protests",
-    "NewsEvent": "Inauguration and following protests ",
-    "Headline": "With Trump inauguration, U.S. enters a great unknown",
-    "Link": "http://www.sfchronicle.com/politics/article/With-Trump-inauguration-U-S-enters-great-unknown-10870262.php",
-    "Visual": "http://ww4.hdnux.com/photos/56/47/60/12221459/5/920x1240.jpg"
-  },
-  {
-    "Day": 1,
-    "Date": "Jan. 20",
-    "Content Type": "news",
-    "Topic": "Inauguration, Protests",
-    "NewsEvent": "Inauguration and following protests ",
-    "Headline": "Thousands protest in SF and Oakland as Trump is sworn in",
-    "Link": "http://www.sfchronicle.com/bayarea/article/Small-crowd-kicks-off-Inauguration-Day-protests-10871551.php",
-    "Visual": "http://ww2.hdnux.com/photos/56/52/03/12230853/3/920x920.jpg"
-  },
-  {
-    "Day": 1,
-    "Date": "Jan. 20",
-    "Content Type": "analysis",
-    "Topic": "Inauguration, Trump voters",
-    "NewsEvent": "Inauguration  ",
-    "Headline": "Trump's victory is sweet for Californians who believed in him",
-    "Link": "http://www.sfchronicle.com/politics/article/Trump-s-victory-is-sweet-for-Californians-who-10872971.php",
-    "Visual": "http://ww2.hdnux.com/photos/56/51/51/12229205/3/920x920.jpg"
-  },
-  {
-    "Day": 1,
-    "Date": "Jan. 20",
-    "Content Type": "analysis",
-    "Topic": "Inauguration, Trump voters",
-    "NewsEvent": "Inauguration",
-    "Headline": "In red Placer County, Republicans optimistic, confident in Trump",
-    "Link": "http://www.sfchronicle.com/politics/article/In-red-Placer-County-Republicans-optimistic-10872927.php"
+    "Summary": "This is a summary of what happened on Day 1. Many important and interesting things occurred, namely these ones, and our brilliant and diligent reporters wrote some great stories if you want to catch up."
   },
   {
     "Day": 2,
-    "Date": "Jan. 21",
-    "Key Event?": "Yes",
-    "Content Type": "news",
-    "Topic": "Protests, women",
-    "NewsEvent": "Women's march ",
-    "Headline": "Huge crowd marches in Washington pledging to resist Trump",
-    "Link": "http://www.sfchronicle.com/politics/article/Huge-crowd-marches-in-Washington-vowing-to-resist-10874384.php",
-    "Visual": "http://ww2.hdnux.com/photos/56/52/25/12232053/5/1024x1024.jpg"
-  },
-  {
-    "Day": 2,
-    "Date": "Jan. 21",
-    "Content Type": "column",
-    "Topic": "Inauguration, media",
-    "NewsEvent": "Inauguration",
-    "Headline": "A time for courage, from media as well as citizens",
-    "Link": "http://www.sfchronicle.com/news/article/A-time-for-courage-from-media-as-well-as-citizens-10874231.php"
-  },
-  {
-    "Date": "Jan. 21",
-    "Key Event?": "Yes",
-    "Content Type": "news",
-    "Topic": "Protests, women",
-    "NewsEvent": "Women's march ",
-    "Headline": "Huge crowds gather to demonstrate against Trump",
-    "Link": "http://www.sfchronicle.com/bayarea/article/Crowds-gather-to-demonstrate-against-Trump-10873932.php",
-    "Visual": "http://ww2.hdnux.com/photos/56/53/15/12235633/5/920x920.jpg"
-  },
-  {
-    "Day": 2,
-    "Date": "Jan. 21",
-    "Key Event?": "Yes",
-    "Content Type": "column",
-    "Topic": "Protests",
-    "NewsEvent": "Women's march ",
-    "Headline": "Women's march first step in lasting difference ",
-    "Link": "http://www.sfchronicle.com/news/article/Women-s-March-is-just-the-1st-step-in-making-a-10875467.php",
-    "Visual": "http://ww1.hdnux.com/photos/56/52/54/12233528/5/920x1240.jpg"
-  },
-  {
-    "Day": 2,
-    "Date": "Jan. 21",
-    "Content Type": "column",
-    "Topic": "Inauguration",
-    "NewsEvent": "Inauguration",
-    "Headline": "In Trump's America, making friends isn't a priority",
-    "Link": "http://www.sfchronicle.com/bayarea/williesworld/article/In-Trump-s-America-making-friends-isn-t-a-10873454.php"
+    "Summary": "This is a summary of what happened on Day 2. Many important and interesting things occurred, namely these ones, and our brilliant and diligent reporters wrote some great stories if you want to catch up."
   },
   {
     "Day": 3,
-    "Date": "Jan. 22",
-    "Content Type": "analysis",
-    "Topic": "Homeless, federal aid",
-    "NewsEvent": "Trump administration views on homeless aid",
-    "Headline": "SF prepares to count its homeless, braces for cuts under Trump",
-    "Link": "http://www.sfchronicle.com/bayarea/article/SF-prepares-to-count-its-homeless-braces-for-10874450.php"
+    "Summary": "This is a summary of what happened on Day 3. Many important and interesting things occurred, namely these ones, and our brilliant and diligent reporters wrote some great stories if you want to catch up."
   },
   {
     "Day": 4,
-    "Date": "Jan. 23",
-    "Content Type": "opinion",
-    "Topic": "Trade",
-    "NewsEvent": "Trump abandons TPP ",
-    "Headline": "Rest in peace, TPP",
-    "Link": "http://www.sfchronicle.com/opinion/editorials/article/Rest-in-peace-Trans-Pacific-Partnership-10878311.php",
-    "Visual": "http://ww4.hdnux.com/photos/56/54/65/12242255/5/920x1240.jpg"
+    "Summary": "This is a summary of what happened on Day 4. Many important and interesting things occurred, namely these ones, and our brilliant and diligent reporters wrote some great stories if you want to catch up."
   },
   {
     "Day": 5,
-    "Date": "Jan. 24",
-    "Content Type": "article",
-    "Topic": "Environment, protests",
-    "NewsEvent": "Trump orders to federal workers",
-    "Headline": "Gag order, freeze put on EPA, other federal agencies",
-    "Link": "http://www.sfchronicle.com/bayarea/article/Gag-order-freeze-put-on-EPA-other-federal-10881372.php"
-  },
-  {
-    "Day": 5,
-    "Date": "Jan. 24",
-    "Content Type": "article",
-    "Topic": "Election, voter fraud",
-    "NewsEvent": "Election results",
-    "Headline": "Trump repeats voter fraud falsehood to make himself look better",
-    "Link": "http://www.sfchronicle.com/politics/article/Trump-repeats-voter-fraud-falsehood-to-make-10881470.php"
-  },
-  {
-    "Day": 5,
-    "Date": "Jan. 24",
-    "Content Type": "article",
-    "Topic": "CA resistance ",
-    "NewsEvent": "California resistance to Trump",
-    "Headline": "State of State speech: Jerry Brown takes on Trump",
-    "Link": "http://www.sfchronicle.com/politics/article/State-of-State-speech-Jerry-Brown-takes-on-Trump-10880342.php"
-  },
-  {
-    "Day": 5,
-    "Date": "Jan. 24",
-    "Key Event?": "Yes",
-    "Content Type": "article",
-    "Topic": "Environment, CA resistance",
-    "NewsEvent": "California resistance to Trump, California environmental policy",
-    "Headline": "California set to fight Washington over environmental protections",
-    "Link": "http://www.sfchronicle.com/science/article/California-set-to-fight-Washington-over-10881197.php"
-  },
-  {
-    "Day": 5,
-    "Date": "Jan. 24",
-    "Content Type": "column",
-    "Topic": "Housing, EO",
-    "NewsEvent": "EO on mortgage insurance",
-    "Headline": "Trump’s swift mortgage move angers real estate industry",
-    "Link": "http://www.sfchronicle.com/business/networth/article/Trump-s-swift-mortgage-move-angers-real-estate-10878383.php"
+    "Summary": "This is a summary of what happened on Day 5. Many important and interesting things occurred, namely these ones, and our brilliant and diligent reporters wrote some great stories if you want to catch up."
   },
   {
     "Day": 6,
-    "Date": "Jan. 25",
-    "Content Type": "column",
-    "Topic": "Trump, Twitter",
-    "NewsEvent": "Trump tweets",
-    "Headline": "Trump could let companies get even sassier on Twitter",
-    "Link": "http://www.sfchronicle.com/business/article/Trump-could-let-companies-get-even-sassier-on-10881360.php",
-    "Visual": "http://ww4.hdnux.com/photos/56/54/55/12241731/7/920x920.jpg",
-    "Other links": "https://www.whitehouse.gov/the-press-office/2017/01/25/executive-order-border-security-and-immigration-enforcement-improvements"
-  },
-  {
-    "Day": 6,
-    "Date": "Jan. 25",
-    "Key Event?": "Yes",
-    "Content Type": "article",
-    "Topic": "Wall, EO",
-    "NewsEvent": "Wall executive order ",
-    "Headline": "Trump moves to 'build that wall'",
-    "Link": "http://www.sfchronicle.com/news/politics/article/Trump-to-move-on-border-security-immigration-10881395.php",
-    "Visual": "http://ww4.hdnux.com/photos/56/54/55/12241731/7/920x920.jpg",
-    "Other links": "https://www.whitehouse.gov/the-press-office/2017/01/25/executive-order-border-security-and-immigration-enforcement-improvements"
-  },
-  {
-    "Day": 6,
-    "Date": "Jan. 25",
-    "Key Event?": "Yes",
-    "Content Type": "article",
-    "Topic": "Immigrants, sanctuary cities, EO",
-    "NewsEvent": "Trump's executive order on sanctuary cities",
-    "Headline": "SF Mayor Lee stands up to Trump, says city remains a sanctuary",
-    "Link": "http://www.sfchronicle.com/bayarea/article/SF-Mayor-Lee-stands-up-to-Trump-says-city-10883956.php"
+    "Summary": "This is a summary of what happened on Day 6. Many important and interesting things occurred, namely these ones, and our brilliant and diligent reporters wrote some great stories if you want to catch up."
   },
   {
     "Day": 7,
-    "Date": "Jan. 26",
-    "Content Type": "article",
-    "Topic": "Muslims, immigration restrictions, EO",
-    "NewsEvent": "Immigration restrictions",
-    "Headline": "Immigrants from Muslim nations fear what Trump changes will bring",
-    "Link": "http://www.sfchronicle.com/politics/article/Immigrants-from-Muslim-nations-fear-what-Trump-10887478.php"
-  },
-  {
-    "Day": 7,
-    "Date": "Jan. 26",
-    "Content Type": "article",
-    "Topic": "Mexico",
-    "NewsEvent": "Mexico import tax"
-  },
-  {
-    "Day": 7,
-    "Date": "Jan. 26",
-    "Content Type": "column",
-    "Topic": "Protests, progressives",
-    "NewsEvent": "Anti-Trump protests",
-    "Headline": "After the protests, marching toward a real movement",
-    "Link": "http://www.sfchronicle.com/politics/article/After-the-protests-marching-toward-a-real-10884526.php"
+    "Summary": "This is a summary of what happened on Day 7. Many important and interesting things occurred, namely these ones, and our brilliant and diligent reporters wrote some great stories if you want to catch up."
   },
   {
     "Day": 8,
-    "Date": "Jan. 27",
-    "Content Type": "article",
-    "Topic": "EO, immigration restrictions",
-    "NewsEvent": "SF Catholic Church reaction to immigration restrictions",
-    "Link": "http://www.sfchronicle.com/bayarea/article/SF-archbishop-troubled-by-Trump-s-10890368.php"
-  },
-  {
-    "Day": 8,
-    "Date": "Jan. 27",
-    "Content Type": "article",
-    "Topic": "Immigrants, DACA, EO",
-    "NewsEvent": "Trump's stance toward Dreamers",
-    "Headline": "Trump's unexpected delay on Dreamers baffles foes and supporters",
-    "Link": "http://www.sfchronicle.com/nation/article/Trump-s-unexpected-delay-on-Dreamers-baffles-10889967.php"
-  },
-  {
-    "Day": 8,
-    "Date": "Jan. 27",
-    "Content Type": "article",
-    "Topic": "Election, voter fraud",
-    "NewsEvent": "Trump's accusations of illegal voting",
-    "Headline": "State election officials reject Trump's claim of illegal voting",
-    "Link": "http://www.sfchronicle.com/politics/article/State-election-officials-reject-Trump-s-claim-10890706.php"
+    "Summary": "This is a summary of what happened on Day 8. Many important and interesting things occurred, namely these ones, and our brilliant and diligent reporters wrote some great stories if you want to catch up."
   },
   {
     "Day": 9,
-    "Date": "Jan. 28",
-    "Key Event?": "Yes",
-    "Content Type": "article",
-    "Topic": "Muslims, EO",
-    "NewsEvent": "Immigration restrictions",
-    "Headline": "Bay Area fear over immigration ban turns to hope as judge lifts order ",
-    "Link": "http://www.sfchronicle.com/bayarea/article/Confusion-heartbreak-over-Trump-order-on-10891257.php",
-    "Visual": "http://ww4.hdnux.com/photos/56/63/45/12269915/3/920x920.jpg"
-  },
-  {
-    "Day": 9,
-    "Date": "Jan. 28",
-    "Content Type": "column",
-    "Topic": "Sanctuary cities, EO",
-    "NewsEvent": "Trump's executive order on sanctuary cities",
-    "Headline": "SF could be at top of Trump's enemies list",
-    "Link": "http://www.sfchronicle.com/bayarea/williesworld/article/SF-could-be-at-the-top-of-Trump-s-enemies-list-10890714.php"
-  },
-  {
-    "Day": 9,
-    "Date": "Jan. 28",
-    "Content Type": "column",
-    "Topic": "Housing, EO",
-    "NewsEvent": "EO on mortgage insurance",
-    "Headline": "How the Trump and Ryan tax plans could impact homeownership",
-    "Link": "http://www.sfchronicle.com/business/networth/article/How-the-Trump-and-Ryan-tax-plans-could-impact-10890200.php"
+    "Summary": "This is a summary of what happened on Day 9. Many important and interesting things occurred, namely these ones, and our brilliant and diligent reporters wrote some great stories if you want to catch up."
   },
   {
     "Day": 10,
-    "Date": "Jan. 29",
-    "Key Event?": "Yes",
-    "Content Type": "article",
-    "Topic": "EO, immigration restrictions",
-    "NewsEvent": "Immigration restrictions",
-    "Headline": "Anxious immigrant families caught in Trump order mostly relieved",
-    "Link": "http://www.sfchronicle.com/bayarea/article/Immigrant-families-ensnared-by-Trump-order-10892568.php"
-  },
-  {
-    "Day": 10,
-    "Date": "Jan. 29",
-    "Content Type": "article",
-    "Topic": "Muslims, Protests",
-    "NewsEvent": "Protests over immigration restrictions",
-    "Headline": "More than 1,000 protesters rally at SFO for immigration ban",
-    "Link": "http://www.sfchronicle.com/news/article/Protesters-rally-at-SFO-following-immigration-ban-10892334.php",
-    "Visual": "http://ww2.hdnux.com/photos/56/65/05/12276041/7/920x920.jpg"
-  },
-  {
-    "Day": 10,
-    "Date": "Jan. 29",
-    "Key Event?": "Yes",
-    "Content Type": "article",
-    "Topic": "Muslims, trade, immigration",
-    "NewsEvent": "Trump's implementation of promises",
-    "Headline": "Trump's executive orders promise a lot, but can they deliver?",
-    "Link": "http://www.sfchronicle.com/politics/article/Trump-s-executive-actions-promise-a-lot-but-10891688.php"
-  },
-  {
-    "Day": 10,
-    "Date": "Jan. 29",
-    "Content Type": "column",
-    "Topic": "Trump supporters ",
-    "NewsEvent": "Arts world's approach to Trump",
-    "Headline": "A terrifying vision of our Trump future at Sundance festival",
-    "Link": "http://www.sfchronicle.com/news/article/A-terrifying-vision-of-our-Trump-future-at-10890665.php"
-  },
-  {
-    "Day": 10,
-    "Date": "Jan. 29",
-    "Content Type": "online-only",
-    "Topic": "EO, immigration restrictions",
-    "NewsEvent": "Immigration restrictions",
-    "Headline": "Tech leaders, workers condemn Trump’s immigration ban",
-    "Link": "http://www.sfchronicle.com/business/article/Tech-leaders-workers-condemn-Trump-s-10892365.php"
-  },
-  {
-    "Day": 10,
-    "Date": "Jan. 29",
-    "Content Type": "article",
-    "Topic": "EO, immigration restrictions",
-    "NewsEvent": "Immigration restrictions",
-    "Headline": "How tech companies responded to Trump's immigration ban",
-    "Link": "http://www.sfchronicle.com/business/article/How-tech-companies-responded-to-Trump-s-10892794.php"
+    "Summary": "This is a summary of what happened on Day 10. Many important and interesting things occurred, namely these ones, and our brilliant and diligent reporters wrote some great stories if you want to catch up."
   },
   {
     "Day": 11,
-    "Date": "Jan. 30",
-    "Content Type": "article",
-    "Topic": "Muslims, immigration, EO",
-    "NewsEvent": "Democrats' resistance to travel restrictions",
-    "Headline": "Bay Area Dems' bids to stop Trump travel ban blocked in Congress",
-    "Link": "http://www.sfchronicle.com/politics/article/Bay-Area-Dems-bids-to-stop-Trump-travel-ban-10895479.php"
-  },
-  {
-    "Day": 11,
-    "Date": "Jan. 30",
-    "Content Type": "article",
-    "Topic": "AG",
-    "NewsEvent": "Firing of acting attorney general ",
-    "Headline": "Trump fires Justice Dept. head over executive order defiance",
-    "Link": "http://www.sfchronicle.com/news/politics/article/Trump-faces-blowback-from-Cabinet-diplomats-for-10895134.php",
-    "Visual": "http://ww2.hdnux.com/photos/56/66/45/12282217/3/920x920.jpg"
-  },
-  {
-    "Day": 11,
-    "Date": "Jan. 30",
-    "Content Type": "article",
-    "Topic": "Trump supporters, immigration",
-    "NewsEvent": "Trump supporters' views",
-    "Headline": "Liberals may hate Trump's first 10 days, but GOP base loves it",
-    "Link": "http://www.sfchronicle.com/politics/article/Liberals-may-hate-Trump-s-first-10-days-but-10895770.php"
-  },
-  {
-    "Day": 11,
-    "Date": "Jan. 30",
-    "Content Type": "article",
-    "Topic": "EO, immigration restrictions",
-    "NewsEvent": "Immigration restrictions",
-    "Headline": "Survival of Trump's refugee ban depends on how courts see it",
-    "Link": "http://www.sfchronicle.com/nation/article/Survival-of-Trump-s-refugee-ban-depends-on-how-10895457.php"
+    "Summary": "This is a summary of what happened on Day 11. Many important and interesting things occurred, namely these ones, and our brilliant and diligent reporters wrote some great stories if you want to catch up."
   },
   {
     "Day": 12,
-    "Date": "Jan. 31",
-    "Key Event?": "Yes",
-    "Topic": "Scotus",
-    "NewsEvent": "Supreme Court pick, Neil Gorsuch",
-    "Headline": "Trump picks appeals court Judge Neil Gorsuch for Supreme Court",
-    "Link": "http://www.sfchronicle.com/nation/article/Trump-picks-appeal-court-Judge-Neil-Gorsuch-for-10898443.php"
-  },
-  {
-    "Day": 12,
-    "Date": "Jan. 31",
-    "Content Type": "column",
-    "Topic": "Democrats, protests, immigration restrictions",
-    "NewsEvent": "Democrats' resistance to travel restrictions",
-    "Headline": "Despite bold rhetoric, Dems, tech leaders collaborate with Trump",
-    "Link": "http://www.sfchronicle.com/news/article/Despite-bold-rhetoric-Dems-tech-leaders-10895185.php"
-  },
-  {
-    "Day": 12,
-    "Date": "Jan. 31",
-    "Content Type": "trumpwatch",
-    "Topic": "Scotus",
-    "NewsEvent": "Supreme Court pick, Neil Gorsuch",
-    "Headline": "President jabs Pelosi, Schumer for mic snafu",
-    "Link": "http://www.sfchronicle.com/news/article/Trump-update-President-jabs-Pelosi-Schumer-for-10896775.php",
-    "Visual": "http://ww1.hdnux.com/photos/56/67/12/12284548/7/920x920.jpg"
-  },
-  {
-    "Day": 12,
-    "Date": "Jan. 31",
-    "Content Type": "trumpwatch",
-    "Topic": "Cabinet, AG",
-    "NewsEvent": "Attorney general nomination",
-    "Headline": "Feinstein to vote no on Sessions nomination",
-    "Link": "http://www.sfchronicle.com/bayarea/article/Trump-update-Feinstein-to-vote-no-on-Sessions-10896827.php",
-    "Visual": "http://ww4.hdnux.com/photos/56/67/14/12284703/5/920x920.jpg"
-  },
-  {
-    "Day": 12,
-    "Date": "Jan. 31",
-    "Content Type": "trumpwatch",
-    "Topic": "Cybersecurity",
-    "NewsEvent": "Cybersecurity order signing",
-    "Headline": "Trump cybersecurity order announcement canceled",
-    "Link": "http://www.sfchronicle.com/business/article/Trump-update-Trump-expected-to-overhaul-10897499.php",
-    "Visual": "http://ww2.hdnux.com/photos/56/67/41/12286041/3/920x1240.jpg"
-  },
-  {
-    "Day": 12,
-    "Date": "Jan. 31",
-    "Content Type": "trumpwatch",
-    "Topic": "Scotus",
-    "NewsEvent": "Supreme Court pick, Neil Gorsuch",
-    "Headline": "Feinstein, Harris unleash tweet storms against Gorsuch",
-    "Link": "http://www.sfchronicle.com/news/article/Trump-update-Feinstein-Harris-unleash-tweet-10898786.php",
-    "Visual": "http://ww4.hdnux.com/photos/56/70/27/12289523/3/1024x1024.jpg"
-  },
-  {
-    "Day": 12,
-    "Date": "Jan. 31",
-    "Content Type": "trumpwatch",
-    "Topic": "Climate change",
-    "NewsEvent": "Letter on climate change to Trump",
-    "Headline": "UC, CSU faculty send president warning on climate change",
-    "Link": "http://www.sfchronicle.com/news/article/Trump-update-UC-faculty-sends-president-warning-10898068.php"
-  },
-  {
-    "Day": 12,
-    "Date": "Jan. 31",
-    "Content Type": "article",
-    "Topic": "Silicon Valley, Uber",
-    "NewsEvent": "Protests over immigration restrictions",
-    "Headline": "Travel ban puts Uber and Lyft in spotlight",
-    "Link": "http://www.sfchronicle.com/business/article/Uber-Lyft-in-spotlight-as-travel-ban-roils-10895252.php"
+    "Summary": "This is a summary of what happened on Day 12. Many important and interesting things occurred, namely these ones, and our brilliant and diligent reporters wrote some great stories if you want to catch up."
   },
   {
     "Day": 13,
-    "Date": "Feb. 1",
-    "Content Type": "trumpwatch",
-    "Topic": "AG",
-    "NewsEvent": "Firing of acting attorney general ",
-    "Headline": "Speier nominates fired Yates for courage award",
-    "Link": "http://www.sfchronicle.com/news/article/Trump-update-Speier-nominates-fired-Yates-for-10900033.php",
-    "Visual": "http://ww1.hdnux.com/photos/56/70/64/12291336/9/920x1240.jpg"
-  },
-  {
-    "Day": 13,
-    "Date": "Feb. 1",
-    "Content Type": "trumpwatch",
-    "Topic": "Cabinet",
-    "NewsEvent": "Secretary of state nomination",
-    "Headline": "Senate confirms Rex Tillerson as Secretary of State ",
-    "Link": "http://www.sfchronicle.com/business/article/Trump-update-Senate-confirms-Rex-Tillerson-as-10900949.php",
-    "Visual": "http://ww2.hdnux.com/photos/56/71/24/12293413/5/920x920.jpg"
-  },
-  {
-    "Day": 13,
-    "Date": "Feb. 1",
-    "Content Type": "trumpwatch",
-    "Topic": "Blacks, race relations",
-    "NewsEvent": "Black History Month speech",
-    "Headline": "Trump praises 'amazing job' by Frederick Douglass",
-    "Link": "http://www.sfchronicle.com/bayarea/article/Trump-update-He-praises-amazing-job-by-10900531.php",
-    "Visual": "http://ww4.hdnux.com/photos/56/71/01/12292179/3/920x920.jpg"
-  },
-  {
-    "Day": 13,
-    "Date": "Feb. 1",
-    "Content Type": "trumpwatch",
-    "Topic": "Muslims, EO",
-    "NewsEvent": "Immigration restrictions",
-    "Headline": "Travel ban? It depends on the meaning of 'ban'",
-    "Link": "http://www.sfchronicle.com/business/article/Trump-update-Travel-ban-Depends-on-what-the-10900483.php"
-  },
-  {
-    "Day": 13,
-    "Date": "Feb. 1",
-    "Content Type": "column",
-    "Topic": "Muslims, immigration, EO",
-    "NewsEvent": "Immigration restrictions",
-    "Headline": "East Bay Muslims make gestures of good faith in time of crisis",
-    "Link": "http://www.sfchronicle.com/news/article/East-Bay-Muslims-make-gestures-of-good-faith-in-10898323.php"
-  },
-  {
-    "Day": 13,
-    "Date": "Feb. 1",
-    "Content Type": "trumpwatch",
-    "Topic": "EO, abortion, CA resistance",
-    "NewsEvent": "California resistance to Trump ",
-    "Headline": "California lawmakers to confer with Planned Parenthood ",
-    "Link": "http://www.sfchronicle.com/news/article/Calif-resistance-Lawmakers-to-confer-with-10901616.php"
-  },
-  {
-    "Day": 13,
-    "Date": "Feb. 1",
-    "Content Type": "column",
-    "Topic": "Trade, economy",
-    "NewsEvent": "Trump's executive orders on the economy",
-    "Headline": "Trump policies may harm economy",
-    "Link": "http://www.sfchronicle.com/business/article/Divisive-policies-will-harm-Trump-s-plans-to-10901387.php"
-  },
-  {
-    "Day": 13,
-    "Date": "Feb. 1",
-    "Content Type": "article",
-    "Topic": "Scotus, Democratic resistance",
-    "NewsEvent": "Supreme Court pick, Neil Gorsuch, Democratic opposition",
-    "Headline": "Feinstein signals she'll lead Democrats against Gorsuch",
-    "Link": "http://www.sfchronicle.com/nation/article/Feinstein-signals-she-ll-lead-Democrats-against-10901762.php"
-  },
-  {
-    "Day": 13,
-    "Date": "Feb. 1",
-    "Content Type": "article",
-    "Topic": "Democrats, protests, Scotus, Neil Gorsuch",
-    "NewsEvent": "Democrats' resistance to Trump picks",
-    "Headline": "The resistance urges Democrats to oppose everything Trump wants",
-    "Link": "http://www.sfchronicle.com/politics/article/The-resistance-urges-Democrats-to-oppose-10901980.php"
+    "Summary": "This is a summary of what happened on Day 13. Many important and interesting things occurred, namely these ones, and our brilliant and diligent reporters wrote some great stories if you want to catch up."
   },
   {
     "Day": 14,
-    "Date": "Feb. 2",
-    "Key Event?": "Yes",
-    "Content Type": "trumpwatch",
-    "Topic": "Tech, Silicon Valley, Uber",
-    "NewsEvent": "Silicon Valley and Trump",
-    "Headline": "Uber CEO quits Trump advisory council",
-    "Link": "http://www.sfchronicle.com/business/article/Uber-CEO-quits-Trump-advisory-council-10904172.php"
+    "Summary": "This is a summary of what happened on Day 14. Many important and interesting things occurred, namely these ones, and our brilliant and diligent reporters wrote some great stories if you want to catch up."
   },
   {
-    "Day": 14,
-    "Date": "Feb. 2",
-    "Content Type": "trumpwatch",
-    "Topic": "Tech, Silicon Valley, Peter Thiel",
-    "NewsEvent": "Silicon Valley and Trump",
-    "Headline": "Peter Thiel confidant appointed to NSC staff",
-    "Link": "http://www.sfchronicle.com/business/article/Trump-update-Peter-Thiel-confidant-appointed-to-10903818.php"
-  },
-  {
-    "Day": 14,
-    "Date": "Feb. 2",
-    "Content Type": "trumpwatch",
-    "Topic": "Protest, funding",
-    "NewsEvent": "Protests, Trump on Twitter",
-    "Headline": "Protest at UC Berkeley prompts funding threat",
-    "Link": "http://www.sfchronicle.com/bayarea/article/Trump-update-Protest-at-UC-Berkeley-prompts-10902945.php"
-  },
-  {
-    "Day": 14,
-    "Date": "Feb. 2",
-    "Content Type": "trumpwatch",
-    "Topic": "Trump boasting",
-    "NewsEvent": "Trump criticizes opponents",
-    "Headline": "President trashes Schwarzenegger's TV ratings",
-    "Link": "http://www.sfchronicle.com/bayarea/article/Trump-update-President-trashes-10903380.php"
-  },
-  {
-    "Day": 14,
-    "Date": "Feb. 2",
-    "Content Type": "trumpwatch",
-    "Topic": "NSC, Democrats",
-    "NewsEvent": "Democratic resistance, National Security Council",
-    "Headline": "Rep. Lee wants Bannon booted from the NSC",
-    "Link": "http://www.sfchronicle.com/nation/article/Trump-update-Rep-Lee-wants-Bannon-booted-from-10904164.php"
+    "Day": 15,
+    "Summary": "This is a summary of what happened on Day 15. Many important and interesting things occurred, namely these ones, and our brilliant and diligent reporters wrote some great stories if you want to catch up."
   }
 ]
