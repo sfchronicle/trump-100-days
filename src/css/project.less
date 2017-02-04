@@ -80,19 +80,25 @@ body {
   .flex-wrap(wrap);
 }
 
-.day-hed {
-  font-family: @med-graphics;
-  text-align: center;
-  margin: auto;
-  padding-top: 50px;
-  padding-bottom: 10px;
-  font-size: 25px;
-}
-.day-text {
-  max-width: 900px;
-  margin: auto;
-  padding: 0 50px;
-  padding-bottom: 20px;
+.day-title {
+  display: none;
+  &.active {
+    display: block;
+  }
+  .day-hed {
+    font-family: @med-graphics;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 25px;
+  }
+  .day-text {
+    max-width: 900px;
+    margin: auto;
+    padding: 0 50px;
+    padding-bottom: 20px;
+  }
 }
 
 .divider {

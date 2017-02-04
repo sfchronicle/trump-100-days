@@ -32,9 +32,11 @@
     </div>
 
     <% json.Days.forEach(function(dd){ %>
-      <div class="day-hed">Day <%=dd.Day%></div>
-      <div class="day-text"><%=dd.Summary%></div>
-      <div class="divider"></div>
+      <div class="day-title active" id="day<%=dd.Day%>">
+        <div class="day-hed">Day <%=dd.Day%></div>
+        <div class="day-text"><%=dd.Summary%></div>
+        <div class="divider"></div>
+      </div>
       <div class="event-wrapper">
         <% json.Events.forEach(function(d){ %>
           <% if (d.Day == dd.Day){ %>
@@ -56,6 +58,11 @@
     <% }); %>
 
     <%= t.include("partials/_footer.html") %>
+
+    <script>
+      var eventsData = <%= JSON.stringify(json.Events) %>
+      console.log(eventsData);
+    </script>
 
     <script src="app.js" async></script>
     <%= t.include("partials/_helloSFC.html") %>
