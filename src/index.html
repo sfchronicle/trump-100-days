@@ -41,7 +41,6 @@
         <% json.Events.forEach(function(d){ %>
           <% if (d.Day == dd.Day){ %>
           <div class="event-item active <%=[d.Topic].toString().toLowerCase().replace(',','')%>">
-            <% console.log(d) %>
             <div class="event"><%=d.NewsEvent%></div>
             <div class="day">Day <%=d.Day%> ( <%=d.Date %> )</div>
             <% var array = [d.Topic].toString().split(','); %>

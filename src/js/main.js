@@ -39,15 +39,14 @@ qsa(".filter").forEach(function(f,index) {
       for (var j=0; j<event_list.length; j++) {
         if (event_list[j].classList.toString().indexOf(f.id) >= 0) {
           event_list[j].classList.add("active");
-          days_vector[eventsData[j].Day] = 1;
+          days_vector[eventsData[j].Day-1] = 1;
         } else {
           event_list[j].classList.remove("active");
         }
       }
       // show days that have events
-      // show all days
       for (var k=0; k<day_list.length; k++) {
-        if (day_list[k] == 1){
+        if (days_vector[k] == 1){
           day_list[k].classList.add("active");
         } else {
           day_list[k].classList.remove("active");
