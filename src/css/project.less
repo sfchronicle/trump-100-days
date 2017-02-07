@@ -40,6 +40,7 @@ body {
     cursor: pointer;
     display: inline-block;
     padding: 3px 10px;
+    margin: 4px 2px;
     border: 1px solid @red;
     border-radius: 5px;
     color: @red;
@@ -98,6 +99,11 @@ body {
     margin: auto;
     padding: 0 50px;
     padding-bottom: 20px;
+    text-align: center;
+    @media @mobile {
+      padding: 0 20px;
+      padding-bottom: 20px;
+    }
   }
 }
 
@@ -128,8 +134,15 @@ body {
   font-family: @block-graphics;
   padding-bottom: 30px;
   font-size: 16px;
-  .flex(0 0 33%);
+  .flex(0 0 30%);
+  margin: 1.5%;
+  border: 1px solid @light-gray;
   padding: 30px;
+  @media @mobile {
+    .flex(0 0 95%);
+    margin: 2.5%;
+    padding: 10px;
+  }
   .tag, .day, .tags, .readme {
     padding-bottom: 10px;
   }

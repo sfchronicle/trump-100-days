@@ -46,10 +46,11 @@ qsa(".filter").forEach(function(f,index) {
       }
       // show days that have events
       for (var k=0; k<day_list.length; k++) {
+        var kday = k+1;
         if (days_vector[k] == 1){
-          day_list[k].classList.add("active");
+          document.getElementById("day"+kday).classList.add("active");
         } else {
-          day_list[k].classList.remove("active");
+          document.getElementById("day"+kday).classList.remove("active");          // day_list[k].classList.remove("active");
         }
       }
 

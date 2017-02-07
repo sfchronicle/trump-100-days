@@ -1,0 +1,22 @@
+[
+  {
+    "Topic": "deregulation",
+    "Instances": 2
+  },
+  {
+    "Topic": "SCOTUS",
+    "Instances": 6
+  },
+  {
+    "Topic": "lawsuit",
+    "Instances": 1
+  },
+  {
+    "Topic": "tech",
+    "Instances": 4
+  },
+  {
+    "Topic": "immigration",
+    "Instances": 15
+  }
+]
