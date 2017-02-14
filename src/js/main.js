@@ -10,14 +10,10 @@ var qsa = s => Array.prototype.slice.call(document.querySelectorAll(s));
 qsa(".filter").forEach(function(f,index) {
   f.addEventListener("click", function(e) {
 
-    console.log(f.getAttribute("id"));
-    console.log(f.getAttribute("class"));
     var classes = f.getAttribute("class");
     var classes_ls = classes.split(" ");
-    console.log(classes_ls);
 
     // clicked on a filter level filter
-    console.log(classes.indexOf("subfilter"));
     if (classes.indexOf("subfilter") == -1) {
       // hide all subfilter containers to start
       var subfilter_list = document.getElementsByClassName("sub-filter-container");
@@ -80,7 +76,7 @@ qsa(".filter").forEach(function(f,index) {
         if (days_vector[k] == 1){
           document.getElementById("day"+kday).classList.add("active");
         } else {
-          document.getElementById("day"+kday).classList.remove("active");          // day_list[k].classList.remove("active");
+          document.getElementById("day"+kday).classList.remove("active");
         }
       }
 
