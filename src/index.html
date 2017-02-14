@@ -25,13 +25,26 @@
 
     <div class="filter-instructions">Click on the buttons below to see events that match a particular topic:</div>
     <div class="filter-container">
-      <div class="filter" id="inauguration">Inauguration</div>
-      <div class="filter" id="protests">Protests</div>
-      <div class="filter" id="women">Women</div>
-      <div class="filter" id="homeless">Homeless</div>
-      <div class="filter" id="trade">Trade</div>
-      <div class="filter active" id="showall">All</div>
+      <% json.Topics.forEach(function(tt){ %>
+        <div class="filter topic <%=tt.Topic.toString().toLowerCase().replace(',','').replace(/\s/g,'')%>" id="<%=tt.Topic.toString().toLowerCase().replace(',','').replace(/\s/g,'')%>"><%=tt.Topic%></div>
+      <% }); %>
+      <div class="filter topic showall active" id="showall">All</div>
     </div>
+
+    <% json.Topics.forEach(function(ss){ %>
+      <% var array = [ss.Subtopics].toString().split(','); %>
+      <% if (array != "") { %>
+        <div class="sub-filter-container" id="subfilter<%=ss.Topic.toString().toLowerCase().replace(',','').replace(/\s/g,'')%>">
+          <div class="sub-filter-instructions">Click on more buttons to see even more related topics:</div>
+            <div class="filter-container">
+              <% array.forEach(function(t){ %>
+                <div class="filter subfilter <%=t.toString().toLowerCase().replace(/\s/g,'')%>" id="<%=t.toString().toLowerCase().replace(/\s/g,'')%>"><%=t%></div>
+                <% }); %>
+            </div>
+          </div>
+        <% } %>
+      </div>
+    <% }); %>
 
     <% json.Days.forEach(function(dd){ %>
       <div class="day-title active" id="day<%=dd.Day%>">
@@ -43,15 +56,14 @@
         <% json.Events.forEach(function(d){ %>
           <% if (d.Day == dd.Day){ %>
           <div class="event-item active <%=[d.Topic].toString().toLowerCase().replace(',','')%>">
-            <div class="event"><%=d.NewsEvent%></div>
+            <div class="event"><%=d.Headline%><a href="<%=d.link%>" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></div>
             <div class="day">Day <%=d.Day%> ( <%=d.Date %> )</div>
             <% var array = [d.Topic].toString().split(','); %>
             <div class="tags">
               <% array.forEach(function(t){ %>
-                <div class="tag"><%=t%></div>
+                <div class="tag <%=t.toString().toLowerCase().replace(/\s/g,'')%>"><%=t%></div>
               <% }) %>
             </div>
-            <div class="readme"><a href="<%=d.link%>" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i><%=d.Headline%></a></div>
         </div>
         <% } %>
       <% }); %>
@@ -62,7 +74,6 @@
 
     <script>
       var eventsData = <%= JSON.stringify(json.Events) %>
-      console.log(eventsData);
     </script>
 
     <script src="app.js" async></script>

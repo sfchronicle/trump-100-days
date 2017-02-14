@@ -10,15 +10,45 @@ var qsa = s => Array.prototype.slice.call(document.querySelectorAll(s));
 qsa(".filter").forEach(function(f,index) {
   f.addEventListener("click", function(e) {
 
+    console.log(f.getAttribute("id"));
+    console.log(f.getAttribute("class"));
+    var classes = f.getAttribute("class");
+    var classes_ls = classes.split(" ");
+    console.log(classes_ls);
+
+    // clicked on a filter level filter
+    console.log(classes.indexOf("subfilter"));
+    if (classes.indexOf("subfilter") == -1) {
+      // hide all subfilter containers to start
+      var subfilter_list = document.getElementsByClassName("sub-filter-container");
+      for (var i=0; i<subfilter_list.length; i++) {
+        subfilter_list[i].classList.remove("active");
+      };
+      // check for subfilters that we should display
+      var subfilter_container = document.getElementById("subfilter"+classes_ls[2]);
+      if (subfilter_container) {
+        subfilter_container.classList.add("active");
+      }
+
+      // add active class to chosen filter (if it is a subfilter, we don't need to hide stuff)
+      var filter_list = document.getElementsByClassName("filter");
+      for (var i=0; i<filter_list.length; i++) {
+        filter_list[i].classList.remove("active");
+      };
+      f.classList.add("active");
+
+    // clicked on a subfilter level filter
+    } else {
+      // we just need to add an active class to the subfilter
+      var filter_list = document.getElementsByClassName("subfilter");
+      for (var i=0; i<filter_list.length; i++) {
+        filter_list[i].classList.remove("active");
+      };
+      f.classList.add("active");
+    }
+
     // reset all the days
     var days_vector = new Array(100+1).join('0').split('').map(parseFloat);
-
-    // add active class to chosen filter
-    var filter_list = document.getElementsByClassName("filter");
-    for (var i=0; i<filter_list.length; i++) {
-      filter_list[i].classList.remove("active");
-    };
-    f.classList.add("active");
 
     // show only events that match the chosen filter
     var event_list = document.getElementsByClassName("event-item");

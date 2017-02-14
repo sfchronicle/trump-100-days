@@ -1,58 +1,67 @@
 @red: #C91414;
 
-// @inauguration:
-// @protests:
-// @trumpvoters:
-// @women:
-// @media_tag:
-// @homeless:
-// @federalaid:
-// @trade:
-// @environment:
-// @election:
-// @voterfraud:
-// @caresist:
-// @EO:
-// @twitter:
-// @wall:
-// @immigration:
-// @scotus:
-// @democrats:
-// @cabinet:
-// @cybersecurity:
-// @siliconvalley:
-// @uber:
-// @AG:
-// @blacks:
+@pres-red: 	#DC004A;
+@pres-blue: #005187;
+
+// @courts: #996B7D;
+// @immigration: darken(#A89170,10%);
+// @trumpandcalifornia: #61988E;
+// @environment: darken(#FFCC32,10%);
+// @economy: darken(#80A9D0,10%);
+// @healthcare: darken(#FFE599,40%);
+// @foreignrelations: #6E7B8E;
+// @security: darken(#99B4CF,10%);
+// @congress: darken(#E59FA6,10%);
+// @trumpfriendsfoes: darken(#9FA7B3,10%);
+// @trumpsoundoffs: darken(#EB8F6A,10%);
+// @showall: #846A6A;
 
 body {
   font-family: @block-graphics;
   font-size: 16px;
 }
+//
+.sub-filter-container {
+  display: none;
+  &.active {
+    padding-top: 20px;
+    display: block;
+  }
+}
 
-.filter-instructions {
+.filter {
+  cursor: pointer;
+  display: inline-block;
+  padding: 3px 10px;
+  margin: 4px 2px;
+  // border-radius: 5px;
+  font-family: @med-graphics;
+  &.topic {
+    border: 1px solid @pres-blue;
+    color: @pres-blue;
+    &.active {
+      color: white;
+      background: @pres-blue;
+    }
+  }
+  &.subfilter {
+    color: lighten(@pres-blue,15%);
+    border: 1px solid lighten(@pres-blue,15%);
+    &.active {
+      color: white;
+      background: lighten(@pres-blue,15%);
+    }
+  }
+}
+
+.filter-instructions, .sub-filter-instructions {
   text-align: center;
   padding-bottom: 5px;
 }
 .filter-container {
   text-align: center;
-  .filter {
-    cursor: pointer;
-    display: inline-block;
-    padding: 3px 10px;
-    margin: 4px 2px;
-    border: 1px solid @red;
-    border-radius: 5px;
-    color: @red;
-    // &:hover {
-    //   color: white;
-    //   background: @red;
-    // }
-    &.active {
-      color: white;
-      background: @red;
-    }
-  }
+  max-width: 900px;
+  margin: auto;
 }
 
 
@@ -61,7 +70,7 @@ body {
 }
 
 .hed {
-  max-width: 900px;
+  max-width: 500px;
   margin: auto;
   padding-top: 40px;
   img {
@@ -99,6 +108,7 @@ body {
     padding-top: 50px;
     padding-bottom: 10px;
     font-size: 25px;
+    color: @pres-blue;
   }
   .day-text {
     max-width: 900px;
@@ -116,8 +126,11 @@ body {
 .divider {
   width: 80%;
   margin: auto;
-  border-bottom: 1px @dark-gray solid;
+  border-bottom: 2px @pres-blue solid;
   height: 2px;
+  &.bottom {
+    margin-top: 50px;
+  }
 }
 
 .credits {
@@ -154,15 +167,35 @@ body {
   }
   .event {
     font-family: @med-graphics;
-    font-size: 20px;
+    font-size: 18px;
+    padding-bottom: 5px;
   }
   .tag {
-    padding: 3px 10px;
-    background: @red;
-    border-radius: 5px;
-    color: white;
-    margin: 2px;
+    // padding: 3px 10px;
+    // background: @red;
+    // border-radius: 5px;
+    // color: white;
+    margin: 4px;
     display: inline-block;
+    font-family: @block-graphics;
+    padding: 0;
+    border-bottom: 1px solid;
+    color: @pres-blue;
+    // &.courts { color: @courts; }
+    // &.immigration { color: @immigration; }
+    // &.trumpandcalifornia { color: @trumpandcalifornia; }
+    // &.environment { color: @environment; }
+    // &.economy { color: @economy; }
+    // &.healthcare { color: @healthcare; }
+    // &.foreignrelations { color: @foreignrelations; }
+    // &.security { color: @security; }
+    // &.congress { color: @congress; }
+    // &.trumpfriendsfoes { color: @trumpfriendsfoes; }
+    // &.trumpsoundoffs { color: @trumpsoundoffs; }
+    // &.showall { color: @showall; }
+  }
+  .fa-external-link {
+    padding-left: 10px;
   }
   .readme {
     .fa-external-link {

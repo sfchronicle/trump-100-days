@@ -1,22 +1,39 @@
 [
   {
-    "Topic": "deregulation",
-    "Instances": 2
+    "Topic": "Courts"
   },
   {
-    "Topic": "SCOTUS",
-    "Instances": 6
+    "Topic": "Immigration",
+    "Subtopics": "Wall, Sanctuary"
   },
   {
-    "Topic": "lawsuit",
-    "Instances": 1
+    "Topic": "Trump and California"
   },
   {
-    "Topic": "tech",
-    "Instances": 4
+    "Topic": "Environment"
   },
   {
-    "Topic": "immigration",
-    "Instances": 15
+    "Topic": "Economy"
+  },
+  {
+    "Topic": "Health care"
+  },
+  {
+    "Topic": "Foreign relations",
+    "Subtopics": "Trade"
+  },
+  {
+    "Topic": "Security",
+    "Subtopics": "Military, Terrorism"
+  },
+  {
+    "Topic": "Congress"
+  },
+  {
+    "Topic": "Trump friends, foes",
+    "Subtopics": "Trump supporters, Trump opponents"
+  },
+  {
+    "Topic": "Trump soundoffs"
   }
 ]

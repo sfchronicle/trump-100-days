@@ -1,5 +1,186 @@
 [
   {
+    "Day": 22,
+    "Date": "Feb. 10",
+    "Topic": "Courts, immigration",
+    "Headline": "Trump's claim aside, travel ruling based in law, scholars say",
+    "Link": "http://www.sfchronicle.com/nation/article/Trump-s-claim-aside-3-0-ruling-on-travel-ban-10924698.php"
+  },
+  {
+    "Day": 21,
+    "Date": "Feb. 9",
+    "Key Event?": "Yes",
+    "ContentType": "article",
+    "Topic": "Courts, immigration",
+    "NewsEvent": "Appeals court rules on travel ban",
+    "Headline": "Court refuses to lift stay on Trump's travel ban",
+    "Link": "http://www.sfchronicle.com/news/article/Court-refuses-to-lift-stay-on-Trump-s-travel-ban-10921770.php"
+  },
+  {
+    "Day": 21,
+    "Date": "Feb. 9",
+    "ContentType": "trump today",
+    "Topic": "Trump Today, Trump family, ethics",
+    "NewsEvent": "Trump adviser pushes Ivanka clothing line",
+    "Headline": "Kellyanne Conway tells people to \"go buy Ivanka's stuff'",
+    "Link": "http://www.sfchronicle.com/nation/article/Trump-today-Kellyanne-Conway-tells-people-to-10920367.php"
+  },
+  {
+    "Day": 21,
+    "Date": "Feb. 9",
+    "ContentType": "column",
+    "Topic": "Resistance to Trump",
+    "NewsEvent": "Trump opponents try to cope",
+    "Headline": "Wise advice from Berkeley scholar: Don't have a cow, America",
+    "Link": "http://www.sfchronicle.com/news/article/Wise-advice-from-Berkeley-scholar-Don-t-have-a-10918787.php"
+  },
+  {
+    "Day": 20,
+    "Date": "Feb. 8",
+    "ContentType": "article",
+    "Topic": "Ethics, Trump family",
+    "NewsEvent": "Ethics experts look at Trump promoting family business",
+    "Headline": "Is Trump using the Oval Office to try to enrich his family?",
+    "Link": "http://www.sfchronicle.com/politics/article/Is-Trump-using-the-Oval-Office-to-try-to-enrich-10919106.php"
+  },
+  {
+    "Day": 20,
+    "Date": "Feb. 8",
+    "ContentType": "article",
+    "Topic": "Trump resistance, Congress, women",
+    "NewsEvent": "Jesse Jackson criticizes silencing of Elizabeth Warren",
+    "Headline": "Jesse Jackson slams Senate Republicans for hushing Sen. Warren",
+    "Link": "http://www.sfchronicle.com/news/article/Jesse-Jackson-slams-Senate-Republicans-for-10918778.php"
+  },
+  {
+    "Day": 20,
+    "Date": "Feb. 8",
+    "ContentType": "article",
+    "Topic": "Trump cabinet, Congress, women",
+    "NewsEvent": "Elizabeth Warren silenced in Senate",
+    "Headline": "Senate newcomer Harris leaps into fray over silencing of Warren",
+    "Link": "http://www.sfchronicle.com/nation/article/Senate-newcomer-Harris-leaps-into-fray-over-10918992.php"
+  },
+  {
+    "Day": 20,
+    "Date": "Feb. 8",
+    "ContentType": "article",
+    "Topic": "Courts, Trump bluster, immigration, Congress",
+    "NewsEvent": "Conservatives target Ninth Circuit appeals court",
+    "Headline": "SF-based appeals court back on conservatives' radar as Trump ruling nears",
+    "Link": "http://www.sfchronicle.com/bayarea/article/SF-based-court-back-in-conservatives-sights-as-10918844.php"
+  },
+  {
+    "Day": 20,
+    "Date": "Feb. 8",
+    "ContentType": "trump today",
+    "Topic": "Trump Today, Immigration, courts, executive order, Trump bluster",
+    "NewsEvent": "Trump pressures appeals court",
+    "Headline": "President sounds off on 9th Circuit Court judges",
+    "Link": "http://www.sfchronicle.com/news/article/Trump-update-President-blasts-9th-Circuit-Court-10917302.php"
+  },
+  {
+    "Day": 20,
+    "Date": "Feb. 8",
+    "ContentType": "trump today",
+    "Topic": "Trump Today, Trump bluster, ethics, business",
+    "NewsEvent": "Trump pushes daughter's business",
+    "Headline": "President tweets Nordstrom treated Ivanka 'unfairly'",
+    "Link": "http://www.sfchronicle.com/news/article/Trump-Today-President-tweets-Nordstrom-treated-10917900.php"
+  },
+  {
+    "Day": 20,
+    "Date": "Feb. 8",
+    "ContentType": "trump today",
+    "Topic": "Trump Today, Supreme Court, Gorsuch, Trump bluster",
+    "NewsEvent": "Gorsuch reacts to Trump on judiciary",
+    "Headline": "Gorsuch calls Trump tweets 'demoralizing'",
+    "Link": "http://www.sfchronicle.com/news/article/Trump-Today-Gorsuch-calls-Trump-tweets-10918701.php"
+  },
+  {
+    "Day": 20,
+    "Date": "Feb. 8",
+    "ContentType": "trump today",
+    "Topic": "Trump Today, Immigration, executive order, courts",
+    "NewsEvent": "Court ruling pending",
+    "Headline": "Court says no ruling Wednesday on travel ban",
+    "Link": "http://www.sfchronicle.com/nation/article/Trump-Today-Court-says-no-ruling-Wednesday-on-10918229.php"
+  },
+  {
+    "Day": 19,
+    "Date": "Feb. 7",
+    "Key Event?": "Yes",
+    "ContentType": "article",
+    "Topic": "Immigration, executive order, courts",
+    "NewsEvent": "Appeals court hears Trump ban",
+    "Headline": "Court hints at keeping Trump order on hold",
+    "Link": "http://www.sfchronicle.com/nation/article/Court-hints-at-keeping-Trump-order-on-hold-10915838.php"
+  },
+  {
+    "Day": 18,
+    "Date": "Feb. 6",
+    "ContentType": "article",
+    "Topic": "foreign policy, protest",
+    "NewsEvent": "Trump's management style assessed",
+    "Headline": "Will Trump's 'Art of the Deal' bravado translate to politics?",
+    "Link": "http://www.sfchronicle.com/politics/article/Will-Trump-s-Art-of-the-Deal-bravado-10912854.php?t=b7551817d9&cmpid=twitter-premium"
+  },
+  {
+    "Day": 18,
+    "Date": "Feb. 6",
+    "ContentType": "column",
+    "Topic": "transportation, Congress",
+    "NewsEvent": "Republicans target Caltrain, high-speed rail",
+    "Headline": "With Trump in charge, Republicans target Caltrain",
+    "Link": "http://www.sfchronicle.com/bayarea/matier-ross/article/With-Trump-in-charge-Republicans-target-Caltrain-10907794.php"
+  },
+  {
+    "Day": 18,
+    "Date": "Feb. 6",
+    "ContentType": "article",
+    "Topic": "immigration, executive order, courts",
+    "NewsEvent": "Appeals court to hear Trump ban",
+    "Headline": "Trump's travel ban to be argued Tuesday in S.F. federal court",
+    "Link": "http://www.sfchronicle.com/nation/article/Trump-s-travel-ban-to-be-argued-Tuesday-in-S-F-10912699.php"
+  },
+  {
+    "Day": 17,
+    "Date": "Feb. 5",
+    "ContentType": "article",
+    "Topic": "Trump supporters",
+    "NewsEvent": "Trump backers look at his first two weeks",
+    "Headline": "Trump's stormy start doesn't rattle San Joaquin Valley",
+    "Link": "http://www.sfchronicle.com/news/article/Trump-s-stormy-start-doesn-t-rattle-San-10908973.php"
+  },
+  {
+    "Day": 17,
+    "Date": "Feb. 5",
+    "ContentType": "article",
+    "Topic": "immigration, executive order, courts",
+    "NewsEvent": "Immigrants start landing in U.S.",
+    "Headline": "Yemeni girl's travel ordeal ends with U.S. citizenship",
+    "Link": "http://www.sfchronicle.com/bayarea/article/Tearful-reunion-at-SFO-for-immigrant-family-10910347.php"
+  },
+  {
+    "Day": 16,
+    "Date": "Feb. 4",
+    "ContentType": "article",
+    "Topic": "immigration, executive order, courts",
+    "NewsEvent": "Immigrant families react to court order",
+    "Headline": "Immigrant families hopeful after decision halting Trump order",
+    "Link": "http://www.sfchronicle.com/bayarea/article/Immigrant-families-hopeful-after-judge-s-10908519.php"
+  },
+  {
+    "Day": 15,
+    "Date": "Feb. 3",
+    "Key Event?": "Yes",
+    "ContentType": "article",
+    "Topic": "immigration, executive order, courts",
+    "NewsEvent": "Judge halts immigration ban",
+    "Headline": "Federal judge halts Trump immigration order nationwide",
+    "Link": "http://www.sfchronicle.com/nation/article/Federal-judge-halts-Trump-immigration-order-10907721.php"
+  },
+  {
     "Day": 15,
     "Date": "Feb. 3",
     "ContentType": "article",
@@ -11,8 +192,8 @@
   {
     "Day": 15,
     "Date": "Feb. 3",
-    "ContentType": "trumpwatch",
-    "Topic": "lawsuit, immigration",
+    "ContentType": "trump today",
+    "Topic": "Trump Today, lawsuit, immigration",
     "NewsEvent": "Lawsuits over travel ban",
     "Headline": "2 Bay Area college students sue over travel ban",
     "Link": "http://www.sfchronicle.com/bayarea/article/Trump-update-2-Bay-Area-college-students-sue-10907178.php"
@@ -20,8 +201,8 @@
   {
     "Day": 15,
     "Date": "Feb. 3",
-    "ContentType": "trumpwatch",
-    "Topic": "tech, immigration",
+    "ContentType": "trump today",
+    "Topic": "Trump Today, tech, immigration",
     "NewsEvent": "Tech leaders on travel ban",
     "Headline": "Tech giants join forces in letter against travel ban",
     "Link": "http://www.sfchronicle.com/bayarea/article/Trump-update-Tech-giants-join-forces-in-letter-10906212.php"
@@ -29,8 +210,8 @@
   {
     "Day": 14,
     "Date": "Feb. 2",
-    "ContentType": "trumpwatch",
-    "Topic": "deregulation, education",
+    "ContentType": "trump today",
+    "Topic": "Trump Today, deregulation, education",
     "NewsEvent": "Education deregulation",
     "Headline": "Falwell selected for education deregulation task force",
     "Link": "http://www.sfchronicle.com/news/article/Trump-update-Falwell-selected-for-education-10905095.php"
@@ -47,8 +228,8 @@
   {
     "Day": 14,
     "Date": "Feb. 2",
-    "ContentType": "trumpwatch",
-    "Topic": "security, Democrats",
+    "ContentType": "trump today",
+    "Topic": "Trump Today, security, Democrats",
     "NewsEvent": "Democratic resistance, National Security Council",
     "Headline": "Rep. Lee wants Bannon booted from the NSC",
     "Link": "http://www.sfchronicle.com/nation/article/Trump-update-Rep-Lee-wants-Bannon-booted-from-10904164.php"
@@ -56,8 +237,8 @@
   {
     "Day": 14,
     "Date": "Feb. 2",
-    "ContentType": "trumpwatch",
-    "Topic": "Trump boasting",
+    "ContentType": "trump today",
+    "Topic": "Trump Today, Trump opponents",
     "NewsEvent": "Trump criticizes opponents",
     "Headline": "President trashes Schwarzenegger's TV ratings",
     "Link": "http://www.sfchronicle.com/bayarea/article/Trump-update-President-trashes-10903380.php"
@@ -65,8 +246,8 @@
   {
     "Day": 14,
     "Date": "Feb. 2",
-    "ContentType": "trumpwatch",
-    "Topic": "protest, funding",
+    "ContentType": "trump today",
+    "Topic": "Trump Today, protest, funding, tweets",
     "NewsEvent": "Protests, Trump on Twitter",
     "Headline": "Protest at UC Berkeley prompts funding threat",
     "Link": "http://www.sfchronicle.com/bayarea/article/Trump-update-Protest-at-UC-Berkeley-prompts-10902945.php"
@@ -74,8 +255,8 @@
   {
     "Day": 14,
     "Date": "Feb. 2",
-    "ContentType": "trumpwatch",
-    "Topic": "tech",
+    "ContentType": "trump today",
+    "Topic": "Trump Today, tech",
     "NewsEvent": "Silicon Valley and Trump",
     "Headline": "Peter Thiel confidant appointed to NSC staff",
     "Link": "http://www.sfchronicle.com/business/article/Trump-update-Peter-Thiel-confidant-appointed-to-10903818.php"
@@ -84,8 +265,8 @@
     "Day": 14,
     "Date": "Feb. 2",
     "Key Event?": "Yes",
-    "ContentType": "trumpwatch",
-    "Topic": "tech",
+    "ContentType": "trump today",
+    "Topic": "Trump Today, tech",
     "NewsEvent": "Silicon Valley and Trump",
     "Headline": "Uber CEO quits Trump advisory council",
     "Link": "http://www.sfchronicle.com/business/article/Uber-CEO-quits-Trump-advisory-council-10904172.php"
@@ -112,7 +293,7 @@
     "Day": 13,
     "Date": "Feb. 1",
     "ContentType": "column",
-    "Topic": "Trade, economy",
+    "Topic": "trade, economy",
     "NewsEvent": "Trump's executive orders on the economy",
     "Headline": "Trump policies may harm economy",
     "Link": "http://www.sfchronicle.com/business/article/Divisive-policies-will-harm-Trump-s-plans-to-10901387.php"
@@ -120,8 +301,8 @@
   {
     "Day": 13,
     "Date": "Feb. 1",
-    "ContentType": "trumpwatch",
-    "Topic": "executive order, abortion, California",
+    "ContentType": "trump today",
+    "Topic": "Trump Today, executive order, healthcare, California",
     "NewsEvent": "California resistance to Trump ",
     "Headline": "California lawmakers to confer with Planned Parenthood ",
     "Link": "http://www.sfchronicle.com/news/article/Calif-resistance-Lawmakers-to-confer-with-10901616.php"
@@ -130,7 +311,7 @@
     "Day": 13,
     "Date": "Feb. 1",
     "ContentType": "column",
-    "Topic": "Muslims, immigration, executive order",
+    "Topic": "Muslim ban, immigration, executive order",
     "NewsEvent": "Immigration restrictions",
     "Headline": "East Bay Muslims make gestures of good faith in time of crisis",
     "Link": "http://www.sfchronicle.com/news/article/East-Bay-Muslims-make-gestures-of-good-faith-in-10898323.php"
@@ -138,8 +319,8 @@
   {
     "Day": 13,
     "Date": "Feb. 1",
-    "ContentType": "trumpwatch",
-    "Topic": "Muslims, executive order",
+    "ContentType": "trump today",
+    "Topic": "Trump Today, Muslim ban, executive order",
     "NewsEvent": "Immigration restrictions",
     "Headline": "Travel ban? It depends on the meaning of 'ban'",
     "Link": "http://www.sfchronicle.com/business/article/Trump-update-Travel-ban-Depends-on-what-the-10900483.php"
@@ -147,8 +328,8 @@
   {
     "Day": 13,
     "Date": "Feb. 1",
-    "ContentType": "trumpwatch",
-    "Topic": "race relations",
+    "ContentType": "trump today",
+    "Topic": "Trump Today, race relations",
     "NewsEvent": "Black History Month speech",
     "Headline": "Trump praises 'amazing job' by Frederick Douglass",
     "Link": "http://www.sfchronicle.com/bayarea/article/Trump-update-He-praises-amazing-job-by-10900531.php",
@@ -157,8 +338,8 @@
   {
     "Day": 13,
     "Date": "Feb. 1",
-    "ContentType": "trumpwatch",
-    "Topic": "Cabinet",
+    "ContentType": "trump today",
+    "Topic": "Trump Today, Cabinet",
     "NewsEvent": "Secretary of state nomination",
     "Headline": "Senate confirms Rex Tillerson as Secretary of State ",
     "Link": "http://www.sfchronicle.com/business/article/Trump-update-Senate-confirms-Rex-Tillerson-as-10900949.php",
@@ -167,8 +348,8 @@
   {
     "Day": 13,
     "Date": "Feb. 1",
-    "ContentType": "trumpwatch",
-    "Topic": "Attorney General",
+    "ContentType": "trump today",
+    "Topic": "Trump Today, Attorney General",
     "NewsEvent": "Firing of acting attorney general ",
     "Headline": "Speier nominates fired Yates for courage award",
     "Link": "http://www.sfchronicle.com/news/article/Trump-update-Speier-nominates-fired-Yates-for-10900033.php",
@@ -178,7 +359,7 @@
     "Day": 12,
     "Date": "Jan. 31",
     "ContentType": "article",
-    "Topic": "Silicon Valley, Uber",
+    "Topic": "tech",
     "NewsEvent": "Protests over immigration restrictions",
     "Headline": "Travel ban puts Uber and Lyft in spotlight",
     "Link": "http://www.sfchronicle.com/business/article/Uber-Lyft-in-spotlight-as-travel-ban-roils-10895252.php"
@@ -186,8 +367,8 @@
   {
     "Day": 12,
     "Date": "Jan. 31",
-    "ContentType": "trumpwatch",
-    "Topic": "environment",
+    "ContentType": "trump today",
+    "Topic": "Trump Today, environment",
     "NewsEvent": "Letter on climate change to Trump",
     "Headline": "UC, CSU faculty send president warning on climate change",
     "Link": "http://www.sfchronicle.com/news/article/Trump-update-UC-faculty-sends-president-warning-10898068.php"
@@ -195,8 +376,8 @@
   {
     "Day": 12,
     "Date": "Jan. 31",
-    "ContentType": "trumpwatch",
-    "Topic": "SCOTUS",
+    "ContentType": "trump today",
+    "Topic": "Trump Today, SCOTUS",
     "NewsEvent": "Supreme Court pick, Neil Gorsuch",
     "Headline": "Feinstein, Harris unleash tweet storms against Gorsuch",
     "Link": "http://www.sfchronicle.com/news/article/Trump-update-Feinstein-Harris-unleash-tweet-10898786.php",
@@ -205,8 +386,8 @@
   {
     "Day": 12,
     "Date": "Jan. 31",
-    "ContentType": "trumpwatch",
-    "Topic": "tech, security",
+    "ContentType": "trump today",
+    "Topic": "Trump Today, tech, security",
     "NewsEvent": "Cybersecurity order signing",
     "Headline": "Trump cybersecurity order announcement canceled",
     "Link": "http://www.sfchronicle.com/business/article/Trump-update-Trump-expected-to-overhaul-10897499.php",
@@ -215,8 +396,8 @@
   {
     "Day": 12,
     "Date": "Jan. 31",
-    "ContentType": "trumpwatch",
-    "Topic": "Cabinet, Attorney General",
+    "ContentType": "trump today",
+    "Topic": "Trump Today, Cabinet, Attorney General",
     "NewsEvent": "Attorney general nomination",
     "Headline": "Feinstein to vote no on Sessions nomination",
     "Link": "http://www.sfchronicle.com/bayarea/article/Trump-update-Feinstein-to-vote-no-on-Sessions-10896827.php",
@@ -225,8 +406,8 @@
   {
     "Day": 12,
     "Date": "Jan. 31",
-    "ContentType": "trumpwatch",
-    "Topic": "SCOTUS",
+    "ContentType": "trump today",
+    "Topic": "Trump Today, SCOTUS",
     "NewsEvent": "Supreme Court pick, Neil Gorsuch",
     "Headline": "President jabs Pelosi, Schumer for mic snafu",
     "Link": "http://www.sfchronicle.com/news/article/Trump-update-President-jabs-Pelosi-Schumer-for-10896775.php",
@@ -236,7 +417,7 @@
     "Day": 12,
     "Date": "Jan. 31",
     "ContentType": "column",
-    "Topic": "Democrats, protest, immigration",
+    "Topic": "Trump Today, Democrats, protest, immigration",
     "NewsEvent": "Democrats' resistance to travel restrictions",
     "Headline": "Despite bold rhetoric, Dems, tech leaders collaborate with Trump",
     "Link": "http://www.sfchronicle.com/news/article/Despite-bold-rhetoric-Dems-tech-leaders-10895185.php"
@@ -245,6 +426,7 @@
     "Day": 12,
     "Date": "Jan. 31",
     "Key Event?": "Yes",
+    "ContentType": "article",
     "Topic": "SCOTUS",
     "NewsEvent": "Supreme Court pick, Neil Gorsuch",
     "Headline": "Trump picks appeals court Judge Neil Gorsuch for Supreme Court",
@@ -282,7 +464,7 @@
     "Day": 11,
     "Date": "Jan. 30",
     "ContentType": "article",
-    "Topic": "Muslims, immigration, executive order",
+    "Topic": "Muslim ban, immigration, executive order",
     "NewsEvent": "Democrats' resistance to travel restrictions",
     "Headline": "Bay Area Dems' bids to stop Trump travel ban blocked in Congress",
     "Link": "http://www.sfchronicle.com/politics/article/Bay-Area-Dems-bids-to-stop-Trump-travel-ban-10895479.php"
@@ -319,7 +501,7 @@
     "Date": "Jan. 29",
     "Key Event?": "Yes",
     "ContentType": "article",
-    "Topic": "Muslims, trade, immigration",
+    "Topic": "Muslim ban, trade, immigration",
     "NewsEvent": "Trump's implementation of promises",
     "Headline": "Trump's executive orders promise a lot, but can they deliver?",
     "Link": "http://www.sfchronicle.com/politics/article/Trump-s-executive-actions-promise-a-lot-but-10891688.php"
@@ -328,7 +510,7 @@
     "Day": 10,
     "Date": "Jan. 29",
     "ContentType": "article",
-    "Topic": "Muslims, protest",
+    "Topic": "Muslim ban, protest",
     "NewsEvent": "Protests over immigration restrictions",
     "Headline": "More than 1,000 protesters rally at SFO for immigration ban",
     "Link": "http://www.sfchronicle.com/news/article/Protesters-rally-at-SFO-following-immigration-ban-10892334.php",
@@ -357,7 +539,7 @@
     "Day": 9,
     "Date": "Jan. 28",
     "ContentType": "column",
-    "Topic": "sanctuary cities, executive order",
+    "Topic": "immigration, executive order",
     "NewsEvent": "Trump's executive order on sanctuary cities",
     "Headline": "SF could be at top of Trump's enemies list",
     "Link": "http://www.sfchronicle.com/bayarea/williesworld/article/SF-could-be-at-the-top-of-Trump-s-enemies-list-10890714.php"
@@ -367,7 +549,7 @@
     "Date": "Jan. 28",
     "Key Event?": "Yes",
     "ContentType": "article",
-    "Topic": "Muslims, executive order",
+    "Topic": "Muslim ban, executive order",
     "NewsEvent": "Immigration restrictions",
     "Headline": "Bay Area fear over immigration ban turns to hope as judge lifts order ",
     "Link": "http://www.sfchronicle.com/bayarea/article/Confusion-heartbreak-over-Trump-order-on-10891257.php",
@@ -377,7 +559,7 @@
     "Day": 8,
     "Date": "Jan. 27",
     "ContentType": "article",
-    "Topic": "Election, voter fraud",
+    "Topic": "election, voter fraud",
     "NewsEvent": "Trump's accusations of illegal voting",
     "Headline": "State election officials reject Trump's claim of illegal voting",
     "Link": "http://www.sfchronicle.com/politics/article/State-election-officials-reject-Trump-s-claim-10890706.php"
@@ -397,6 +579,7 @@
     "ContentType": "article",
     "Topic": "executive order, immigration",
     "NewsEvent": "SF Catholic Church reaction to immigration restrictions",
+    "Headline": "SF archbishop on Trump: Church will aid undocumented immigrants",
     "Link": "http://www.sfchronicle.com/bayarea/article/SF-archbishop-troubled-by-Trump-s-10890368.php"
   },
   {
@@ -412,14 +595,7 @@
     "Day": 7,
     "Date": "Jan. 26",
     "ContentType": "article",
-    "Topic": "trade",
-    "NewsEvent": "Mexico import tax"
-  },
-  {
-    "Day": 7,
-    "Date": "Jan. 26",
-    "ContentType": "article",
-    "Topic": "Muslims, executive order, immigration",
+    "Topic": "Muslim ban, executive order, immigration",
     "NewsEvent": "Immigration restrictions",
     "Headline": "Immigrants from Muslim nations fear what Trump changes will bring",
     "Link": "http://www.sfchronicle.com/politics/article/Immigrants-from-Muslim-nations-fear-what-Trump-10887478.php"
@@ -429,7 +605,7 @@
     "Date": "Jan. 25",
     "Key Event?": "Yes",
     "ContentType": "article",
-    "Topic": "sanctuary cities, immigration, executive order",
+    "Topic": "immigration, executive order",
     "NewsEvent": "Trump's executive order on sanctuary cities",
     "Headline": "SF Mayor Lee stands up to Trump, says city remains a sanctuary",
     "Link": "http://www.sfchronicle.com/bayarea/article/SF-Mayor-Lee-stands-up-to-Trump-says-city-10883956.php"
@@ -439,7 +615,7 @@
     "Date": "Jan. 25",
     "Key Event?": "Yes",
     "ContentType": "article",
-    "Topic": "Wall, executive order",
+    "Topic": "immigration, executive order",
     "NewsEvent": "Wall executive order ",
     "Headline": "Trump moves to 'build that wall'",
     "Link": "http://www.sfchronicle.com/news/politics/article/Trump-to-move-on-border-security-immigration-10881395.php",
@@ -450,7 +626,7 @@
     "Day": 6,
     "Date": "Jan. 25",
     "ContentType": "column",
-    "Topic": "Trump, Twitter",
+    "Topic": "tweets",
     "NewsEvent": "Trump tweets",
     "Headline": "Trump could let companies get even sassier on Twitter",
     "Link": "http://www.sfchronicle.com/business/article/Trump-could-let-companies-get-even-sassier-on-10881360.php",
@@ -471,7 +647,7 @@
     "Date": "Jan. 24",
     "Key Event?": "Yes",
     "ContentType": "article",
-    "Topic": "environment, CA resistance",
+    "Topic": "environment, California",
     "NewsEvent": "California resistance to Trump, California environmental policy",
     "Headline": "California set to fight Washington over environmental protections",
     "Link": "http://www.sfchronicle.com/science/article/California-set-to-fight-Washington-over-10881197.php"
@@ -480,7 +656,7 @@
     "Day": 5,
     "Date": "Jan. 24",
     "ContentType": "article",
-    "Topic": "CA resistance ",
+    "Topic": "California",
     "NewsEvent": "California resistance to Trump",
     "Headline": "State of State speech: Jerry Brown takes on Trump",
     "Link": "http://www.sfchronicle.com/politics/article/State-of-State-speech-Jerry-Brown-takes-on-Trump-10880342.php"
@@ -537,7 +713,7 @@
     "Key Event?": "Yes",
     "ContentType": "column",
     "Topic": "protest",
-    "NewsEvent": "Women's march ",
+    "NewsEvent": "women's rights",
     "Headline": "Women's march first step in lasting difference ",
     "Link": "http://www.sfchronicle.com/news/article/Women-s-March-is-just-the-1st-step-in-making-a-10875467.php",
     "Visual": "http://ww1.hdnux.com/photos/56/52/54/12233528/5/920x1240.jpg"
@@ -548,7 +724,7 @@
     "Key Event?": "Yes",
     "ContentType": "news",
     "Topic": "protest, women",
-    "NewsEvent": "Women's march ",
+    "NewsEvent": "women's rights",
     "Headline": "Huge crowds gather to demonstrate against Trump",
     "Link": "http://www.sfchronicle.com/bayarea/article/Crowds-gather-to-demonstrate-against-Trump-10873932.php",
     "Visual": "http://ww2.hdnux.com/photos/56/53/15/12235633/5/920x920.jpg"
@@ -568,7 +744,7 @@
     "Key Event?": "Yes",
     "ContentType": "news",
     "Topic": "protest, women",
-    "NewsEvent": "Women's march ",
+    "NewsEvent": "women's rights",
     "Headline": "Huge crowd marches in Washington pledging to resist Trump",
     "Link": "http://www.sfchronicle.com/politics/article/Huge-crowd-marches-in-Washington-vowing-to-resist-10874384.php",
     "Visual": "http://ww2.hdnux.com/photos/56/52/25/12232053/5/1024x1024.jpg"
@@ -597,7 +773,7 @@
     "Date": "Jan. 20",
     "ContentType": "news",
     "Topic": "Inauguration, protest",
-    "NewsEvent": "Inauguration and following protests ",
+    "NewsEvent": "Inauguration, protest",
     "Headline": "Thousands protest in SF and Oakland as Trump is sworn in",
     "Link": "http://www.sfchronicle.com/bayarea/article/Small-crowd-kicks-off-Inauguration-Day-protests-10871551.php",
     "Visual": "http://ww2.hdnux.com/photos/56/52/03/12230853/3/920x920.jpg"
@@ -608,7 +784,7 @@
     "Key Event?": "Yes",
     "ContentType": "analysis",
     "Topic": "Inauguration, protest",
-    "NewsEvent": "Inauguration and following protests ",
+    "NewsEvent": "Inauguration, protest",
     "Headline": "With Trump inauguration, U.S. enters a great unknown",
     "Link": "http://www.sfchronicle.com/politics/article/With-Trump-inauguration-U-S-enters-great-unknown-10870262.php",
     "Visual": "http://ww4.hdnux.com/photos/56/47/60/12221459/5/920x1240.jpg"
