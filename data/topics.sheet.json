@@ -1,39 +1,53 @@
 [
   {
-    "Topic": "Courts"
+    "Topic": "California",
+    "Subtopics": "Sanctuary laws, Transportation, Tech, Housing, Homelessness, Executive order, Trump Today",
+    "Rename": "Muslim ban"
   },
   {
-    "Topic": "Immigration",
-    "Subtopics": "Wall, Sanctuary"
+    "Topic": "Congress",
+    "Subtopics": "Democrats, Republicans, Executive order, Trump Today",
+    "Rename": "Women"
   },
   {
-    "Topic": "Trump and California"
+    "Topic": "Courts",
+    "Subtopics": "Supreme Court, Deregulation, Lawsuit, Executive order, Trump Today",
+    "Rename": "Race relations"
   },
   {
-    "Topic": "Environment"
+    "Topic": "Economy",
+    "Subtopics": "Business, Trade, Funding, Federal aid, Executive order, Trump Today"
   },
   {
-    "Topic": "Economy"
+    "Topic": "Education",
+    "Subtopics": "Trump Today, Executive order"
   },
   {
-    "Topic": "Health care"
+    "Topic": "Environment",
+    "Subtopics": "Executive order, Trump Today"
   },
   {
     "Topic": "Foreign relations",
-    "Subtopics": "Trade"
+    "Subtopics": "Foreign policy, Trade, Executive order, Trump Today"
+  },
+  {
+    "Topic": "Health care",
+    "Subtopics": "Executive order, Trump Today"
+  },
+  {
+    "Topic": "Immigration",
+    "Subtopics": "Wall, Sanctuary laws, Executive order, Trump Today"
   },
   {
     "Topic": "Security",
-    "Subtopics": "Military, Terrorism"
+    "Subtopics": "Executive order, Trump Today"
   },
   {
-    "Topic": "Congress"
+    "Topic": "Trump friends and foes",
+    "Subtopics": "Trump supporters, Trump resistance, Cabinet, Trump family,  Progressives, Executive order, Trump Today"
   },
   {
-    "Topic": "Trump friends, foes",
-    "Subtopics": "Trump supporters, Trump opponents"
-  },
-  {
-    "Topic": "Trump soundoffs"
+    "Topic": "Trump soundoffs",
+    "Subtopics": "Inauguration, Election, Voter fraud, Executive order, Trump Today"
   }
 ]

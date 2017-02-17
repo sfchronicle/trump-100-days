@@ -20,7 +20,39 @@ body {
   font-family: @block-graphics;
   font-size: 16px;
 }
-//
+
+.outer {
+  max-width: 900px;
+  margin: auto;
+}
+
+
+.search-container {
+  font-family: @block-graphics;
+  margin-top: 30px;
+  @media @mobile {
+    margin-top: 20px;
+  }
+  // text-align: center;
+  .search {
+    font-family: @med-graphics;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  input {
+    border-radius: 5px;
+    border: 1px solid @dark-gray;
+    font-family: @block-graphics;
+    padding: 5px;
+    width: 80%;
+    font-size: 14px;
+    @media @mobile {
+      width: 90%;
+      font-size: 16px;
+    }
+  }
+}
+
 .sub-filter-container {
   display: none;
   &.active {
@@ -70,11 +102,22 @@ body {
 }
 
 .hed {
-  max-width: 500px;
+  max-width: 900px;
   margin: auto;
   padding-top: 40px;
   img {
     width: 100%;
+  }
+  &.mobile {
+    display: none;
+    @media @mobile {
+      display: block;
+    }
+  }
+  &.desktop {
+    @media @mobile {
+      display: none;
+    }
   }
   // padding-top: 50px;
   // font-size: 30px;
@@ -94,6 +137,8 @@ body {
   text-align: center;
   .display-flex;
   .flex-wrap(wrap);
+  // align-items: center;
+  // justify-content: center;
 }
 
 .day-title {
@@ -130,6 +175,7 @@ body {
   height: 2px;
   &.bottom {
     margin-top: 50px;
+    border-bottom: 1px @dark-gray solid;
   }
 }
 
@@ -155,7 +201,7 @@ body {
   font-size: 16px;
   .flex(0 0 30%);
   margin: 1.5%;
-  border: 1px solid @light-gray;
+  background: lighten(@light-gray,10%);
   padding: 30px;
   @media @mobile {
     .flex(0 0 95%);
@@ -178,9 +224,12 @@ body {
     margin: 4px;
     display: inline-block;
     font-family: @block-graphics;
+    font-size: 14px;
     padding: 0;
-    border-bottom: 1px solid;
-    color: @pres-blue;
+    // border-bottom: 1px solid;
+    font-style: italic;
+    margin: 0 4px;
+    color: lighten(@pres-blue,10%);
     // &.courts { color: @courts; }
     // &.immigration { color: @immigration; }
     // &.trumpandcalifornia { color: @trumpandcalifornia; }

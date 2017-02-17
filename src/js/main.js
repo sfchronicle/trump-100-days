@@ -2,6 +2,48 @@ require("./lib/social"); //Do not delete
 
 var filter = document.getElementsByClassName('filter');
 
+// searchbar code
+$("#searchbar").bind("input propertychange", function () {
+  var filter = $(this).val().toLowerCase().replace(/ /g,'');
+  var class_match = 0;
+
+  // reset all the days
+  var day_list = document.getElementsByClassName("day-title");
+  var days_vector = new Array(100+1).join('0').split('').map(parseFloat);
+
+  $(".event-item").filter(function() {
+
+    var classes = this.className.split(" ");
+    for (var i=0; i< classes.length; i++) {
+
+      var current_class = classes[i].toLowerCase();
+      if ( current_class.match(filter)) {
+        class_match = class_match + 1;
+      }
+    }
+    if (class_match > 0) {
+      $(this).addClass("active");
+      days_vector[this.parentNode.classList[1]-1] = 1;
+    } else {
+      $(this).removeClass("active");
+    }
+    class_match = 0;
+
+  });
+
+  // show days that have events
+  for (var k=0; k<day_list.length; k++) {
+    var kday = k+1;
+    if (days_vector[k] == 1){
+      document.getElementById("day"+kday).classList.add("active");
+    } else {
+      document.getElementById("day"+kday).classList.remove("active");
+    }
+  }
+
+});
+
+
 // var days_vector = new Array(100+1).join('0').split('').map(parseFloat);
 // console.log(days_vector);
 
