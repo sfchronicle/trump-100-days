@@ -2,7 +2,28 @@
   {
     "Day": 34,
     "Date": "Feb. 22",
-    "Topic": "LGBT, Cabinet,Trump Today",
+    "Topic": "California, Immigration, Education",
+    "Headline": "Court won't let aid be taken from immigrant UC students",
+    "Link": "http://www.sfchronicle.com/news/article/Court-won-t-let-aid-to-be-taken-from-immigrant-10952578.php"
+  },
+  {
+    "Day": 34,
+    "Date": "Feb. 22",
+    "Topic": "California, Immigration, Sanctuary laws",
+    "Headline": "SF has bold proposal to protect Muslims",
+    "Link": "http://www.sfchronicle.com/politics/article/SF-has-bold-proposal-to-protect-Muslims-10952506.php"
+  },
+  {
+    "Day": 34,
+    "Date": "Feb. 22",
+    "Topic": "LGBT, California, Cabinet",
+    "Headline": "Conservative applause, activist anger over Trump's transgender rollback",
+    "Link": "http://www.sfchronicle.com/news/article/Conservative-applause-activist-anger-over-10952705.php"
+  },
+  {
+    "Day": 34,
+    "Date": "Feb. 22",
+    "Topic": "LGBT, Cabinet, Trump Today",
     "Headline": "Obama policy on transgender school bathrooms repealed",
     "Link": "http://www.sfchronicle.com/nation/article/Trump-Today-Obama-policy-on-transgender-school-10952484.php"
   },
@@ -49,9 +70,16 @@
     "Link": "http://www.sfchronicle.com/bayarea/article/Trump-s-new-priorities-expose-more-immigrants-10949458.php"
   },
   {
+    "Day": 33,
+    "Date": "Feb. 21",
+    "Topic": "California, Health care",
+    "Headline": "State fears Trump will topple health care gains under Obamacare",
+    "Link": "http://www.sfchronicle.com/business/article/California-fears-Trump-will-overturn-health-gains-10944890.php"
+  },
+  {
     "Day": 32,
     "Date": "Feb. 20",
-    "Topic": "Trump cabinet, Security",
+    "Topic": "Cabinet, Security",
     "Headline": "Army Lt. Gen. H.R. McMaster is named President Donald Trump's national security adviser",
     "Link": "http://www.sfchronicle.com/news/article/Army-Lt-Gen-H-R-McMaster-is-named-President-10945964.php"
   },
@@ -61,6 +89,13 @@
     "Topic": "Trump resistance, Democrats, Congress",
     "Headline": "Taking on Trump puts Kamala Harris in the spotlight",
     "Link": "http://www.sfchronicle.com/bayarea/matier-ross/article/Taking-on-Trump-puts-Kamala-Harris-in-spotlight-10942291.php"
+  },
+  {
+    "Day": 31,
+    "Date": "Feb. 19",
+    "Topic": "Trump soundoffs, Sweden, Terrorism",
+    "Headline": "Trump says remark about Sweden referred to something on TV",
+    "Link": "http://www.sfchronicle.com/news/politics/article/Swedes-scratch-heads-at-Trump-s-suggestion-of-10943844.php"
   },
   {
     "Day": 30,
@@ -126,11 +161,25 @@
     "Link": "http://www.sfchronicle.com/nation/article/Trump-Today-Report-that-Guard-could-be-used-to-10940498.php"
   },
   {
+    "Day": 29,
+    "Date": "Feb. 17",
+    "Topic": "Cabinet, Trump Today, Environment",
+    "Headline": "Senate confirms Pruitt for EPA over environmentalists’ opposition",
+    "Link": "http://www.sfchronicle.com/politics/article/Senate-confirms-Pruitt-for-EPA-over-10940782.php"
+  },
+  {
     "Day": 28,
     "Date": "Feb. 16",
     "Topic": "Trump soundoffs, Trump supporters, Media, Russia",
     "Headline": "Trump's base unfazed by recent allegations, criticisms",
     "Link": "http://www.sfchronicle.com/politics/article/Trump-s-base-unfazed-by-recent-allegations-10939579.php"
+  },
+  {
+    "Day": 28,
+    "Date": "Feb. 16",
+    "Topic": "Cabinet, Trump Today",
+    "Headline": "Trump today: Alexander Acosta, Florida dean, nominated for Labor",
+    "Link": "http://www.sfchronicle.com/business/article/Trump-today-Alexander-Acosta-Florida-dean-10937774.php"
   },
   {
     "Day": 28,
@@ -145,6 +194,13 @@
     "Topic": "Media, Trump supporters, Trump Today",
     "Headline": "President's PAC emails 'media accountability survey'",
     "Link": "http://www.sfchronicle.com/nation/article/Trump-Today-President-s-PAC-emails-media-10938925.php"
+  },
+  {
+    "Day": 28,
+    "Date": "Feb. 16",
+    "Topic": "Tech, Immigration",
+    "Headline": "Trump could scapegoat H-1B visas for immigration goals",
+    "Link": "http://www.sfchronicle.com/business/article/Trump-could-scapegoat-H-1B-visas-for-immigration-10938999.php"
   },
   {
     "Day": 27,
@@ -243,7 +299,7 @@
     "Day": 25,
     "Date": "Feb. 13",
     "Key Event?": "Yes",
-    "Topic": "Trump cabinet, Russia",
+    "Topic": "Cabinet, Russia",
     "Headline": "National Security Adviser Michael Flynn resigns",
     "Link": "http://www.sfchronicle.com/news/politics/article/Embattled-national-security-adviser-s-fate-10927961.php"
   },
@@ -290,6 +346,13 @@
     "Link": "http://www.sfchronicle.com/nation/article/Trump-s-claim-aside-3-0-ruling-on-travel-ban-10924698.php"
   },
   {
+    "Day": 22,
+    "Date": "Feb. 10",
+    "Topic": "Tech, Immigration, Business",
+    "Headline": "Unease over immigration hurting tech recruiting",
+    "Link": "http://www.sfchronicle.com/business/article/Unease-over-immigration-hurting-tech-recruiting-10924210.php"
+  },
+  {
     "Day": 21,
     "Date": "Feb. 9",
     "Key Event?": "Yes",
@@ -323,6 +386,20 @@
     "NewsEvent": "Trump opponents try to cope",
     "Headline": "Wise advice from Berkeley scholar: Don't have a cow, America",
     "Link": "http://www.sfchronicle.com/news/article/Wise-advice-from-Berkeley-scholar-Don-t-have-a-10918787.php"
+  },
+  {
+    "Day": 21,
+    "Date": "Feb. 9",
+    "Topic": "Trump Today, Executive order, Crime",
+    "Headline": "Trump Today: President signs executive orders on crime and safety",
+    "Link": "http://www.sfchronicle.com/politics/article/Trump-Today-President-signs-executive-orders-on-10921066.php"
+  },
+  {
+    "Day": 21,
+    "Date": "Feb. 9",
+    "Topic": "Tech, Business",
+    "Headline": "Trump’s populist revolt could put the brakes on self-driving cars",
+    "Link": "http://www.sfchronicle.com/business/article/Trump-s-populist-revolt-could-put-the-brakes-on-10922029.php"
   },
   {
     "Day": 20,
@@ -398,6 +475,13 @@
   },
   {
     "Day": 19,
+    "Date": "Feb. 8",
+    "Topic": "Trump Today, Tech, Business",
+    "Headline": "Trump Today: Intel CEO announces $7 billion factory plan",
+    "Link": "http://www.sfchronicle.com/business/article/Trump-Today-Intel-CEO-announces-7-billion-10918032.php"
+  },
+  {
+    "Day": 19,
     "Date": "Feb. 7",
     "Key Event?": "Yes",
     "ContentType": "article",
@@ -432,6 +516,14 @@
     "NewsEvent": "Appeals court to hear Trump ban",
     "Headline": "Trump's travel ban to be argued Tuesday in S.F. federal court",
     "Link": "http://www.sfchronicle.com/nation/article/Trump-s-travel-ban-to-be-argued-Tuesday-in-S-F-10912699.php"
+  },
+  {
+    "Day": 17,
+    "Date": "Feb. 5",
+    "Key Event?": "Yes",
+    "Topic": "Immigration, Executive order, Tech",
+    "Headline": "Tech puts up (mostly) united front against Trump travel ban",
+    "Link": "http://www.sfchronicle.com/business/article/Apple-Facebook-Google-Microsoft-file-brief-10910677.php"
   },
   {
     "Day": 17,
@@ -496,6 +588,36 @@
     "NewsEvent": "Tech leaders on travel ban",
     "Headline": "Tech giants join forces in letter against travel ban",
     "Link": "http://www.sfchronicle.com/bayarea/article/Trump-update-Tech-giants-join-forces-in-letter-10906212.php"
+  },
+  {
+    "Day": 15,
+    "Date": "Feb. 3",
+    "ContentType": "trump today",
+    "Topic": "Trump Today, Executive order, finance",
+    "NewsEvent": "Tech leaders on travel ban",
+    "Headline": "Trump update: Trump starts rollback of Dodd-Frank rules",
+    "Link": "http://www.sfchronicle.com/business/article/Trump-kicks-off-rollback-of-Dodd-Frank-financial-10906491.php"
+  },
+  {
+    "Day": 15,
+    "Date": "Feb. 3",
+    "Topic": "Environment, Business, Tech",
+    "Headline": "Trump’s push to dump regulations divides Silicon Valley",
+    "Link": "http://www.sfchronicle.com/business/article/Trump-s-push-to-dump-regulations-divides-10905113.php"
+  },
+  {
+    "Day": 15,
+    "Date": "Feb. 3",
+    "Topic": "Business, Executive order",
+    "Headline": "Trump’s fiduciary rule order could pose problem for investors",
+    "Link": "http://www.sfchronicle.com/business/article/Trump-s-fiduciary-rule-order-could-pose-problem-10907519.php"
+  },
+  {
+    "Day": 14,
+    "Date": "Feb. 2",
+    "Topic": "Tech, Immigration",
+    "Headline": "Trump order dashes hopes of would-be entrepreneurs",
+    "Link": "http://www.sfchronicle.com/business/article/Trump-order-dashes-hopes-of-would-be-entrepreneurs-10901727.php"
   },
   {
     "Day": 14,
@@ -631,7 +753,7 @@
     "ContentType": "trump today",
     "Topic": "Trump Today, Cabinet",
     "NewsEvent": "Secretary of state nomination",
-    "Headline": "Senate confirms Rex Tillerson as Secretary of State ",
+    "Headline": "Trump update: California senators vote against Rex Tillerson nomination",
     "Link": "http://www.sfchronicle.com/business/article/Trump-update-Senate-confirms-Rex-Tillerson-as-10900949.php",
     "Visual": "http://ww2.hdnux.com/photos/56/71/24/12293413/5/920x920.jpg"
   },
@@ -749,6 +871,13 @@
     "Headline": "Trump fires Justice Dept. head over executive order defiance",
     "Link": "http://www.sfchronicle.com/news/politics/article/Trump-faces-blowback-from-Cabinet-diplomats-for-10895134.php",
     "Visual": "http://ww2.hdnux.com/photos/56/66/45/12282217/3/920x920.jpg"
+  },
+  {
+    "Day": 11,
+    "Date": "Jan. 30",
+    "Topic": "Business, Tech",
+    "Headline": "White House’s shift frays Silicon Valley-Washington connections",
+    "Link": "http://www.sfchronicle.com/business/article/White-House-s-shift-frays-Silicon-10892917.php"
   },
   {
     "Day": 11,
