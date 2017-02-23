@@ -33,7 +33,7 @@
         <% json.Topics.forEach(function(tt){ %>
           <div class="filter topic <%=tt.Topic.toString().toLowerCase().replace(',','').replace(/\s/g,'')%>" id="<%=tt.Topic.toString().toLowerCase().replace(',','').replace(/\s/g,'')%>"><%=tt.Topic%></div>
         <% }); %>
-        <div class="filter topic showall active" id="showall">All</div>
+        <div class="filter topic showall active" id="showall">View All</div>
       </div>
 
       <% json.Topics.forEach(function(ss){ %>
@@ -52,7 +52,7 @@
 
       <div class="search-container">
         <span class="search">Search by keywords  </span>
-        <input class="input" id="searchbar" type="text" placeholder='Try "Immigration," "Supreme Court" or "SF" ...'>
+        <input class="input" id="searchbar" type="text" placeholder='Try "Day 17," "Supreme Court" or "SF" ...'>
       </div>
 
       <% json.Days.forEach(function(dd){ %>
@@ -62,7 +62,7 @@
           <% if (dd.Photo) { %>
             <div class="day-img">
               <div class="inline-img">
-                <img src="http://ww2.hdnux.com/photos/54/11/64/<%=dd.Photo%>/3/2000x1000.jpg"></img>
+                <img src="http://ww2.hdnux.com/photos/54/11/64/<%=dd.Photo%>/3/1000x500.jpg"></img>
                 <div class="caption"><%=dd.Caption%><span class="byline">  <%=dd.Credit%></span></div>
               </div>
             </div>
@@ -71,7 +71,7 @@
         <div class="event-wrapper <%=dd.Day%>">
           <% json.Events.forEach(function(d){ %>
             <% if (d.Day == dd.Day){ %>
-            <div class="event-item active <%=[d.Topic].toString().toLowerCase().replace(',','').replace(/\s/g,'')%> <%=[d.Headline]%>">
+            <div class="event-item active <%=[d.Topic].toString().toLowerCase().replace(',','').replace(/\s/g,'')%> <%=[d.Headline]%> day<%=dd.Day%>">
               <div class="event"><%=d.Headline%><a href="<%=d.Link%>" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></div>
               <div class="day">Day <%=d.Day%> ( <%=d.Date %> )</div>
               <% var array = [d.Topic].toString().split(','); %>
