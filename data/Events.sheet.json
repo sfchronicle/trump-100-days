@@ -1,8 +1,155 @@
 [
   {
+    "Day": 34,
+    "Date": "Feb. 22",
+    "Topic": "LGBT, Cabinet,Trump Today",
+    "Headline": "Obama policy on transgender school bathrooms repealed",
+    "Link": "http://www.sfchronicle.com/nation/article/Trump-Today-Obama-policy-on-transgender-school-10952484.php"
+  },
+  {
+    "Day": 34,
+    "Date": "Feb. 22",
+    "Topic": "Congress, California, Transportation",
+    "Headline": "California’s top Republican ignored business plea to help Caltrain",
+    "Link": "http://www.sfchronicle.com/bayarea/article/California-s-top-Republican-ignored-business-10949198.php"
+  },
+  {
+    "Day": 33,
+    "Date": "Feb. 21",
+    "Topic": "Congress, California, Health care",
+    "Headline": "State fears Trump will topple health care gains under Obamacare",
+    "Link": "http://www.sfchronicle.com/business/article/California-fears-Trump-will-overturn-health-gains-10944890.php"
+  },
+  {
+    "Day": 33,
+    "Date": "Feb. 21",
+    "Topic": "Trump resistance, Congress, Health care",
+    "Headline": "GOP Rep. McClintock gets an earful at Northern California town hall",
+    "Link": "http://www.sfchronicle.com/politics/article/GOP-Rep-McClintock-gets-an-earful-at-Northern-10949828.php"
+  },
+  {
+    "Day": 33,
+    "Date": "Feb. 21",
+    "Topic": "Trump soundoffs, Trump resistance, Anti-Semitism, Trump Today",
+    "Headline": "Anne Frank Center says Trump 'too lttle, too late'",
+    "Link": "http://www.sfchronicle.com/nation/article/Trump-Today-Anne-Frank-Center-says-Trump-too-10948873.php"
+  },
+  {
+    "Day": 33,
+    "Date": "Feb. 21",
+    "Topic": "Immigration, Executive order, Trump Today",
+    "Headline": "Beefed-up Border Patrol, more lockups for undocumented immigrants",
+    "Link": "http://www.sfchronicle.com/bayarea/article/Trump-Today-Beefed-up-Border-Patrol-more-10948471.php"
+  },
+  {
+    "Day": 33,
+    "Date": "Feb. 21",
+    "Topic": "Immigration, Executive order",
+    "Headline": "Trump's new priorites expose more immigrants to deportation",
+    "Link": "http://www.sfchronicle.com/bayarea/article/Trump-s-new-priorities-expose-more-immigrants-10949458.php"
+  },
+  {
+    "Day": 32,
+    "Date": "Feb. 20",
+    "Topic": "Trump cabinet, Security",
+    "Headline": "Army Lt. Gen. H.R. McMaster is named President Donald Trump's national security adviser",
+    "Link": "http://www.sfchronicle.com/news/article/Army-Lt-Gen-H-R-McMaster-is-named-President-10945964.php"
+  },
+  {
+    "Day": 31,
+    "Date": "Feb. 19",
+    "Topic": "Trump resistance, Democrats, Congress",
+    "Headline": "Taking on Trump puts Kamala Harris in the spotlight",
+    "Link": "http://www.sfchronicle.com/bayarea/matier-ross/article/Taking-on-Trump-puts-Kamala-Harris-in-spotlight-10942291.php"
+  },
+  {
+    "Day": 30,
+    "Date": "Feb. 18",
+    "Topic": "Russia, Congress, Trump soundoffs",
+    "Headline": "Good news now for Trump, but bad news may be just around the bend",
+    "Link": "http://www.sfchronicle.com/bayarea/williesworld/article/Good-news-now-for-Trump-but-bad-news-may-be-just-10942341.php"
+  },
+  {
+    "Day": 30,
+    "Date": "Feb. 18",
+    "Topic": "Trump soundoffs, Courts, Congress",
+    "Headline": "Trump attack may reopen debate on splitting Ninth Circuit in SF",
+    "Link": "http://www.sfchronicle.com/nation/article/Trump-attack-may-reopen-debate-on-splitting-Ninth-10943304.php"
+  },
+  {
+    "Day": 30,
+    "Date": "Feb. 18",
+    "Topic": "Trump resistance, Cabinet, Congress",
+    "Headline": "Washington's coup fever heats up",
+    "Link": "http://www.sfchronicle.com/news/article/Washington-s-coup-fever-heats-up-10942988.php"
+  },
+  {
+    "Day": 30,
+    "Date": "Feb. 18",
+    "Topic": "Trump resistance, California, Trump soundoffs",
+    "Headline": "Trump's gap between talk, action could benefit California",
+    "Link": "http://www.sfchronicle.com/politics/article/Trump-s-gap-between-talk-action-could-benefit-10943321.php"
+  },
+  {
+    "Day": 29,
+    "Date": "Feb. 17",
+    "Topic": "Trump resistance, Congress, Democrats",
+    "Headline": "Trump's storm keeps Democrats busy on many fronts",
+    "Link": "http://www.sfchronicle.com/politics/article/Trump-s-storm-keeps-Democrats-busy-on-many-10941912.php"
+  },
+  {
+    "Day": 29,
+    "Date": "Feb. 17",
+    "Topic": "California, Congress, Republicans",
+    "Headline": "Trump administration deals a big setback to California",
+    "Link": "http://www.sfchronicle.com/bayarea/matier-ross/article/Trump-administration-deals-a-big-setback-to-10941880.php"
+  },
+  {
+    "Day": 29,
+    "Date": "Feb. 17",
+    "Topic": "Cabinet, Trump Today",
+    "Headline": "Retired Lt. Gen. Kellogg 1 of 4 candidates for NSA",
+    "Link": "http://www.sfchronicle.com/nation/article/Trump-Today-Retired-Lt-Gen-Kellogg-1-of-4-10941038.php"
+  },
+  {
+    "Day": 29,
+    "Date": "Feb. 17",
+    "Topic": "Cabinet, Marijuana",
+    "Headline": "Trump may allow states some leeway with marijuana",
+    "Link": "http://www.sfchronicle.com/news/article/Trump-may-allow-states-some-leeway-with-marijuana-10941928.php"
+  },
+  {
+    "Day": 29,
+    "Date": "Feb. 17",
+    "Topic": "Immigrantion, Executive order, Trump Today",
+    "Headline": "Report that Guard could be used to round up immigrants is 'false'",
+    "Link": "http://www.sfchronicle.com/nation/article/Trump-Today-Report-that-Guard-could-be-used-to-10940498.php"
+  },
+  {
+    "Day": 28,
+    "Date": "Feb. 16",
+    "Topic": "Trump soundoffs, Trump supporters, Media, Russia",
+    "Headline": "Trump's base unfazed by recent allegations, criticisms",
+    "Link": "http://www.sfchronicle.com/politics/article/Trump-s-base-unfazed-by-recent-allegations-10939579.php"
+  },
+  {
+    "Day": 28,
+    "Date": "Feb. 16",
+    "Topic": "Immigration, Travel ban, Courts, Executive order",
+    "Headline": "Administration's plans new travel ban to meet courts' objections",
+    "Link": "http://www.sfchronicle.com/nation/article/Trump-Today-President-s-PAC-emails-media-10938925.php"
+  },
+  {
+    "Day": 28,
+    "Date": "Feb. 16",
+    "Topic": "Media, Trump supporters, Trump Today",
+    "Headline": "President's PAC emails 'media accountability survey'",
+    "Link": "http://www.sfchronicle.com/nation/article/Trump-Today-President-s-PAC-emails-media-10938925.php"
+  },
+  {
     "Day": 27,
     "Date": "Feb. 15",
-    "Topic": "Trump opposition, Entertainment",
+    "Topic": "Trump resistance, Entertainment",
     "Headline": "Voters who show up have way more political power than Beyoncé",
     "Link": "http://www.sfchronicle.com/politics/article/Voters-who-show-up-have-way-more-political-power-10935734.php"
   },
@@ -10,15 +157,15 @@
     "Day": 27,
     "Date": "Feb. 15",
     "Key Event?": "Yes",
-    "Topic": "Trump cabinet",
+    "Topic": "Cabinet",
     "Headline": "Puzder withdraws nomination to be Trump's labor secretary",
     "Link": "http://www.sfchronicle.com/news/politics/article/Puzder-s-nomination-as-Labor-secretary-in-serious-10935076.php"
   },
   {
     "Day": 27,
     "Date": "Feb. 15",
-    "Topic": "Trump soundoffs, Media, Russia, Trump cabinet",
-    "Headline": "Trump Today: President says Russian phone call leaks 'un-American'",
+    "Topic": "Trump soundoffs, Media, Russia, Cabinet, Trump Today",
+    "Headline": "President says Russian phone call leaks 'un-American'",
     "Link": "http://www.sfchronicle.com/politics/article/Trump-Today-President-says-Russian-phone-call-10934927.php"
   },
   {
@@ -60,22 +207,22 @@
   {
     "Day": 26,
     "Date": "Feb. 14",
-    "Topic": "Business, Energy",
-    "Headline": "Trump Today: Another win for big oil",
+    "Topic": "Business, Energy, Trump Today",
+    "Headline": "Another win for big oil",
     "Link": "http://www.sfchronicle.com/business/article/Trump-Today-Another-big-win-for-oil-10932330.php"
   },
   {
     "Day": 26,
     "Date": "Feb. 14",
-    "Topic": "Trump and California",
-    "Headline": "Trump Today: White House 'keeping close eye' on Oroville crisis",
+    "Topic": "California, Trump Today",
+    "Headline": "White House 'keeping close eye' on Oroville crisis",
     "Link": "http://www.sfchronicle.com/news/article/Trump-Today-White-House-keeping-close-eye-10931865.php"
   },
   {
     "Day": 26,
     "Date": "Feb. 14",
-    "Topic": "Trump cabinet, Russia, Trump soundoffs",
-    "Headline": "Trump Today: President says Flynn resigning 'not the real story'",
+    "Topic": "Cabinet, Russia, Trump soundoffs, Trump Today",
+    "Headline": "President says Flynn resigning 'not the real story'",
     "Link": "http://www.sfchronicle.com/news/article/Trump-Today-President-says-Flynn-resigning-not-10931284.php"
   },
   {
@@ -826,7 +973,7 @@
     "Day": 4,
     "Date": "Jan. 23",
     "ContentType": "opinion",
-    "Topic": "Trade",
+    "Topic": "Trade, Executive order",
     "NewsEvent": "Trump abandons TPP ",
     "Headline": "Rest in peace, TPP",
     "Link": "http://www.sfchronicle.com/opinion/editorials/article/Rest-in-peace-Trans-Pacific-Partnership-10878311.php",
@@ -876,7 +1023,7 @@
     "Day": 2,
     "Date": "Jan. 21",
     "ContentType": "column",
-    "Topic": "Inauguration, Trump soundoffs",
+    "Topic": "Inauguration, Trump soundoffs, Media",
     "NewsEvent": "Inauguration",
     "Headline": "A time for courage, from media as well as citizens",
     "Link": "http://www.sfchronicle.com/news/article/A-time-for-courage-from-media-as-well-as-citizens-10874231.php"

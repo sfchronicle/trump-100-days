@@ -2,17 +2,16 @@
   {
     "Topic": "California",
     "Subtopics": "Sanctuary laws, Transportation, Tech, Housing, Homelessness, Executive order, Trump Today",
-    "Rename": "Muslim ban"
+    "Uncategorized": "Women"
   },
   {
     "Topic": "Congress",
     "Subtopics": "Democrats, Republicans, Executive order, Trump Today",
-    "Rename": "Women"
+    "Uncategorized": "Race relations"
   },
   {
     "Topic": "Courts",
-    "Subtopics": "Supreme Court, Deregulation, Lawsuit, Executive order, Trump Today",
-    "Rename": "Race relations"
+    "Subtopics": "Supreme Court, Deregulation, Lawsuit, Executive order, Trump Today"
   },
   {
     "Topic": "Economy",
@@ -36,11 +35,15 @@
   },
   {
     "Topic": "Immigration",
-    "Subtopics": "Wall, Sanctuary laws, Executive order, Trump Today"
+    "Subtopics": "Travel ban, Wall, Sanctuary laws, Executive order, Trump Today"
+  },
+  {
+    "Topic": "Protests",
+    "Subtopics": "Trump Today, Executive order"
   },
   {
     "Topic": "Security",
-    "Subtopics": "Executive order, Trump Today"
+    "Subtopics": "Military, Terrorism, Executive order, Trump Today"
   },
   {
     "Topic": "Trump friends and foes",

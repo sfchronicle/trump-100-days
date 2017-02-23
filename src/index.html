@@ -26,9 +26,9 @@
       <div class="hed mobile">
         <img src="./assets/graphics/Trump_era_square.png"></img>
       </div>
-      <div class="chatter">This is a paragraph about how President Trump has had a very busy first 100 days in office. It is a collection of all of our very insightful, poignant, factual articles about everything that has transpired beginning with his inauguration.</div>
+      <div class="chatter">President Trump came into office promising to change Washington and “make America great again.” He has moved aggressively to bring about that change, delighting his supporters but deepening the divide between them and the rest of the country. Here are all the stories The Chronicle has reported on the new administration since Trump was sworn in on Jan. 20.</div>
 
-      <div class="filter-instructions">Click on the buttons below to see events that match a particular topic:</div>
+      <div class="filter-instructions">Click on the buttons below to see links to stories about a particular topic or use the search box to look up other subjects:</div>
       <div class="filter-container">
         <% json.Topics.forEach(function(tt){ %>
           <div class="filter topic <%=tt.Topic.toString().toLowerCase().replace(',','').replace(/\s/g,'')%>" id="<%=tt.Topic.toString().toLowerCase().replace(',','').replace(/\s/g,'')%>"><%=tt.Topic%></div>
@@ -40,7 +40,7 @@
         <% var array = [ss.Subtopics].toString().split(','); %>
         <% if (array != "") { %>
           <div class="sub-filter-container" id="subfilter<%=ss.Topic.toString().toLowerCase().replace(',','').replace(/\s/g,'')%>">
-            <div class="sub-filter-instructions">Click on more buttons to see even more related topics:</div>
+            <div class="sub-filter-instructions">Related topics:</div>
               <div class="filter-container">
                 <% array.forEach(function(t){ %>
                   <div class="filter subfilter <%=t.toString().toLowerCase().replace(/\s/g,'')%>" id="<%=t.toString().toLowerCase().replace(/\s/g,'')%>"><%=t%></div>
@@ -51,15 +51,22 @@
       <% }); %>
 
       <div class="search-container">
-        <span class="search">Search by keywords:</span>
-        <input class="input" id="searchbar" type="text" placeholder="Try this or that or the other thing or ... ">
+        <span class="search">Search by keywords  </span>
+        <input class="input" id="searchbar" type="text" placeholder='Try "Immigration," "Supreme Court" or "SF" ...'>
       </div>
 
       <% json.Days.forEach(function(dd){ %>
         <div class="day-title active" id="day<%=dd.Day%>">
           <div class="day-hed">Day <%=dd.Day%></div>
           <div class="day-text"><%=dd.Summary%></div>
-          <div class="divider"></div>
+          <% if (dd.Photo) { %>
+            <div class="day-img">
+              <div class="inline-img">
+                <img src="http://ww2.hdnux.com/photos/54/11/64/<%=dd.Photo%>/3/2000x1000.jpg"></img>
+                <div class="caption"><%=dd.Caption%><span class="byline">  <%=dd.Credit%></span></div>
+              </div>
+            </div>
+          <% } %>
         </div>
         <div class="event-wrapper <%=dd.Day%>">
           <% json.Events.forEach(function(d){ %>

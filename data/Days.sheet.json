@@ -1,111 +1,219 @@
 [
   {
-    "Day": 27,
+    "Day": 34,
+    "Summary": "Trump administration repeals Obama directive to schools calling for students to be allowed to use bathrooms corresponding to their gender identity,"
+  },
+  {
+    "Day": 33,
     "Summary": "This is a sentence."
+  },
+  {
+    "Day": 32,
+    "Summary": "President Trump names H.R. McMaster to be his new national security adviser."
+  },
+  {
+    "Day": 31,
+    "Summary": "President Trump holds a campaign-style rally in Florida and refers to nonexistent terrorist act in Sweden."
+  },
+  {
+    "Day": 30,
+    "Summary": "The Trump administration puts Caltrain electrification on hold. Congressional Democrats ponder how to counter Trump."
+  },
+  {
+    "Day": 29,
+    "Summary": "A draft executive order that would enlist National Guard troops to round up undocumented immigrants causes a flurry of White House denials. President Trump tweets that several media outlets are \"the enemy of the American people!\""
+  },
+  {
+    "Day": 28,
+    "Summary": "The Trump administration drops an appeal of the court order blocking the travel ban; the president promises a revised order soon. The president holds a raucous news conference at which he denies that his campaign or administration colluded with Russia, and he attacks the media."
+  },
+  {
+    "Day": 27,
+    "Summary": "Labor Secretary nominee Andrew Puzder withdraws after revelations that he employed an undocumented immigrant in his household. Trump calls the leaks on contact with Russian officials \"un-American.\"",
+    "Photo": 12378236,
+    "Caption": "Donald Trump, then the president-elect, walks with Labor Secretary nominee Andy Puzder in Bedminster, N.J.",
+    "Credit": "Associated Press"
   },
   {
     "Day": 26,
-    "Summary": "This is a sentence."
+    "Summary": "President Trump says allegedly illegal leaks of Michael Flynn's contact with Russian ambassador, not the contact itself, is \"the real story.\" ",
+    "Photo": 12368087,
+    "Caption": "President Trump (left), Chief of Staff Reince Priebus, Vice President Mike Pence, White House press secretary Sean Spicer and National Security Adviser Michael Flynn speak with Russian President Vladimir Putin on the phone from Moscow.",
+    "Credit": "Associated Press"
   },
   {
     "Day": 25,
-    "Summary": "This is a sentence."
+    "Summary": "National Security Adviser Michael Flynn resigns amid revelations he had contact with the Russian ambassador to the U.S. during the transition and misled Vice President Mike Pence about whether he discusssed the Obama adminstration's sanctions.",
+    "Photo": 12368084,
+    "Caption": "Michael Flynn speaks during a daily news briefing at the White House before resigning as President Trump's national security adviser.",
+    "Credit": "Associated Press"
   },
   {
     "Day": 24,
-    "Summary": "This is a sentence."
+    "Summary": "Political commentary targeting Trump administration dominates Grammy Awards.",
+    "Photo": 12361298,
+    "Caption": "Beyonce performs during the Grammy Awards in Los Angeles. ",
+    "Credit": "Getty Images"
   },
   {
     "Day": 23,
-    "Summary": "This is a sentence."
+    "Summary": "Planned Parenthood clinics targeted by anti-abortion protesters, while counterprotesters target protesters.",
+    "Photo": 12356280,
+    "Caption": "More than 300 demonstrators show up in support of Planned Parenthood in San Francisco in response to Defund Planned Parenthood nationwide rallies.",
+    "Credit": "Mason Trinca, Special to The Chronicle"
   },
   {
     "Day": 22,
-    "Summary": "President Trump floats the possibility of rewriting travel ban executive order rather than appealing to U.S. Supreme Court."
+    "Summary": "President Trump floats the possibility of rewriting the travel ban executive order rather than appealing to the U.S. Supreme Court.",
+    "Photo": 12353401,
+    "Caption": "President Trump speaks in the East Room of the White House.",
+    "Credit": "Associated Press"
   },
   {
     "Day": 21,
-    "Summary": "Ninth Circuit Court of Appeals unanimously upholds lower court's order blocking enforcement of President Trump's travel ban. Trump issues all-caps tweet, \"SEE YOU IN COURT.\" Trump adviser Kellyanne Conway causes furor by saying from West Wing in TV interview that people should \"buy Ivanka's stuff.\""
+    "Summary": "The Ninth Circuit Court of Appeals unanimously upholds the lower court's order blocking enforcement of President Trump's travel ban. Trump issues all-caps tweet, \"SEE YOU IN COURT.\" Trump adviser Kellyanne Conway causes furor by saying from West Wing in TV interview that people should \"buy Ivanka's stuff.\"",
+    "Photo": 12333451,
+    "Caption": "Protesters let their voices be heard in front of the Ninth Circuit Court of Appeals in S.F.",
+    "Credit": "Getty Images"
   },
   {
     "Day": 20,
-    "Summary": "President Trump, in tweets and comments, leans on appeals court judges to uphold his travel ban. Supreme Court nominee Neil Gorsuch calls Trump's comments on judiciary \"disheartening\" and \"demoralizing.\" Trump tweets that Nordstrom is treating his daughter Ivank \"very unfairly\" by dropping her clothing line."
+    "Summary": "President Trump, in tweets and comments, leans on appeals court judges to uphold his travel ban. Supreme Court nominee Neil Gorsuch calls Trump's comments on judiciary \"disheartening\" and \"demoralizing.\" Trump tweets that Nordstrom is treating his daughter Ivanka \"very unfairly\" by dropping her clothing line.",
+    "Photo": 12336192,
+    "Caption": "Trump took a shot at Nordstrom on Twitter, saying his daughter Ivanka Trump was treated “so unfairly” by the department store chain for its decision to drop her clothing line. ",
+    "Credit": "Associated Press"
   },
   {
     "Day": 19,
-    "Summary": "Appeals court hears arguments on travel ban, with at least two judges indicating that they're leaning toward upholding lower court order blocking the ban.",
-    "undefined": "bate over confirming Jeff Sessions for attorney general."
+    "Summary": "The appeals court hears arguments on the travel ban, with at least two judges indicating that they're leaning toward upholding the lower court order blocking the ban. Senate Republicans silence Sen. Elizabeth Warren in a debate over confirming Jeff Sessions for attorney general.",
+    "Photo": 12330169,
+    "Caption": "A pedestrian walks past the Ninth Circuit Court of Appeals in San Francisco.",
+    "Credit": "Gabrielle Lurie, The Chronicle"
   },
   {
     "Day": 18,
-    "Summary": "Ninth Circuit Court of Appeals schedules hearing for following day on judge's order blocking President Trump's travel ban."
+    "Summary": "The Ninth Circuit Court of Appeals schedules a hearing for the following day on the judge's order blocking President Trump's travel ban.",
+    "Photo": 12319847,
+    "Caption": "Analysts say what worked for Donald Trump in business, doesn’t always translate to politics.",
+    "Credit": "Getty Images"
   },
   {
     "Day": 17,
-    "Summary": "President Trump gives an interview in which he responds to stance toward \"killer\" Russian President Vladimir Putin by asking, \"You think our country's so innocent?\""
+    "Summary": "President Trump gives an interview in which he responds to a stance by Russian President Vladimir Putin by asking, \"You think our country's so innocent?\"",
+    "Photo": 12319830,
+    "Caption": "Eman Ali (left), a 12-year old girl from Yemen, walks with her sister Salma Ali, 14, after Eman arrived at San Francisco International Airport after six years of trying to obtain citizenship.",
+    "Credit": "Gabrielle Lurie, The Chronicle"
   },
   {
     "Day": 16,
-    "Summary": "President Trump issues string of tweets denouncing ruling by the \"so-called judge\" who blocked his travel ban."
+    "Summary": "President Trump issues a string of tweets denouncing the ruling by the \"so-called judge\" who blocked his travel ban.",
+    "Photo": 12313274,
+    "Caption": "Muslims and their supporters gather on the steps of Brooklyn's Borough Hall for a protest against President Trump’s temporary travel ban on citizens from seven predominantly Muslim countries.",
+    "Credit": "Associated Press"
   },
   {
     "Day": 15,
-    "Summary": "Federal judge in Seattle issues temporary halt nationwide to enforcement of President Trump's travel ban. "
+    "Summary": "A federal judge in Seattle issues a temporary halt nationwide to enforcement of President Trump's travel ban. ",
+    "Photo": 12312071,
+    "Caption": "Washington state Solicitor General Noah Purcell (left) and Attorney General Bob Ferguson take questions from reporters after a federal court hearing in Seattle. ",
+    "Credit": "Associated Press"
   },
   {
     "Day": 14,
-    "Summary": "President Trump tweets threat to remove federal funding from UC Berkeley after protesters chase right-wing provocateur Milo Yiannopoulos off campus. "
+    "Summary": "President Trump tweets a threat to remove federal funding from UC Berkeley after protesters chase right-wing provocateur Milo Yiannopoulos off campus. ",
+    "Photo": 12296953,
+    "Caption": "A portable light unit burns during a protest against right-wing provocateur Milo Yiannopoulos at UC Berkeley.",
+    "Credit": "Scott Strazzante, The Chronicle"
   },
   {
     "Day": 13,
-    "Summary": "Senate confirms Rex Tillerson as secretary of state. President Trump gives rambling Black History Month speech at which he appears to imply that 19th century abolitionist Frederick Douglass is still alive."
+    "Summary": "The Senate confirms Rex Tillerson as secretary of state. President Trump gives rambling Black History Month speech at which he appears to imply that 19th century abolitionist Frederick Douglass is still alive.",
+    "Photo": 12292182,
+    "Caption": "President Trump holds an African American History Month listening session at the White House. ",
+    "Credit": "Getty Images"
   },
   {
     "Day": 12,
-    "Summary": "President Trump nominates appeals court Judge Neil Gorsuch to Supreme Court to replace the late Antonin Scalia. Trump issues executive order designed to tighten cybersecurity."
+    "Summary": "President Trump nominates appeals court Judge Neil Gorsuch to the Supreme Court to replace the late Antonin Scalia. Trump issues an executive order designed to tighten cybersecurity.",
+    "Photo": 12288902,
+    "Caption": "President Trump greets Judge Neil Gorsuch after nominating him to the Supreme Court.",
+    "Credit": "Getty Images"
   },
   {
     "Day": 11,
-    "Summary": "Acting attorney general refuses to have Justice Department attorneys defend travel ban, is fired by President Trump. Congressional Democrats' attempts to block ban are quickly shot down."
+    "Summary": "The acting attorney general refuses to have Justice Department attorneys defend the travel ban. She is then fired by President Trump. Congressional Democrats' attempts to block the ban are quickly shot down.",
+    "Photo": 12282151,
+    "Caption": "Demonstrators gather outside the U.S. Supreme Court demanding President Trump reverse the anti-refugee and anti-immigration executive orders.",
+    "Credit": "Getty Images"
   },
   {
     "Day": 10,
-    "Summary": "More airport protests -- several judicial orders allow immigrants being held at airports to enter U.S."
+    "Summary": "More airport protests; several judicial orders allow immigrants being held at airports to enter the U.S.",
+    "Photo": 12276041,
+    "Caption": "Lara Kiswani leads a chant during the second day of immigration demonstrations at San Francisco International Airport.",
+    "Credit": "Mason Trinca, Special to The Chronicle"
   },
   {
     "Day": 9,
-    "Summary": "Airport chaos, protests ensue as travel-ban executive order is enforced."
+    "Summary": "Airport chaos and protests ensue as the travel-ban executive order is enforced.",
+    "Photo": 12269915,
+    "Caption": "President Trump speaks at an annual retreat in Philadelphia for House and Senate Republicans. ",
+    "Credit": "Associated Press"
   },
   {
     "Day": 8,
-    "Summary": "President Trump signs executive order barring travelers from seven majorty-Muslim nations and all refugees from the U.S. for at least 90 days."
+    "Summary": "President Trump signs an executive order barring travelers from seven majorty-Muslim nations and all refugees from the U.S. for at least 90 days.",
+    "Photo": 12268636,
+    "Caption": "Archbishop of San Francisco Salvatore Cordileone leads a prayer service at O' Farrell and Larkin streets.",
+    "Credit": "Michael Macor, The Chronicle"
   },
   {
     "Day": 7,
-    "Summary": "Immigrants from Muslim-majority nations brace for expected Trump administration order limiting travel to U.S."
+    "Summary": "Immigrants from Muslim-majority nations brace for the expected Trump administration order limiting travel to the U.S.",
+    "Photo": 12261487,
+    "Caption": "Shayan Zadeh emigrated from Iran and is now a U.S. citizen.",
+    "Credit": "Santiago Mejia, The Chronicle"
   },
   {
     "Day": 6,
-    "Summary": "President Trump signs executive orders to authorize Wall along Mexican borders, lay groundwork for possible action against \"sanctuary cities\" such as San Francisco."
+    "Summary": "President Trump signs executive orders to authorize a wall along the Mexican border, laying groundwork for possible action against \"sanctuary cities\" such as San Francisco.",
+    "Photo": 12254188,
+    "Caption": "Mayor Ed Lee tells the media at City Hall that S.F. stands by its sanctuary city status despite President Trump’s actions.",
+    "Credit": "Santiago Mejia, The Chronicle"
   },
   {
     "Day": 5,
-    "Summary": "Trump administration limits federal agencies' contacts with media. President Trump asserts, without evidence, that millions of illegal votes were cast against him in the election. "
+    "Summary": "The Trump administration limits federal agencies' contacts with media. President Trump asserts, without evidence, that millions of illegal votes were cast against him in the election. ",
+    "Photo": 12248324,
+    "Caption": "The Trump administration announced it would seek to halt several federal environmental regulations.",
+    "Credit": "Michael Macor, The Chronicle"
   },
   {
     "Day": 4,
-    "Summary": "President Trump backs out of Trans-Pacific Partnership trade pact."
+    "Summary": "President Trump backs out of the Trans-Pacific Partnership trade pact.",
+    "Photo": 12242255,
+    "Caption": "President Trump shows the Executive Order withdrawing the U.S. from the Trans-Pacific Partnership (TPP).",
+    "Credit": "Getty Images"
   },
   {
     "Day": 3,
-    "Summary": "San Francisco braces for possibility of cut in federal aid for homeless programs."
+    "Summary": "San Francisco braces for the possibility of a cut in federal aid for homeless programs.",
+    "Photo": 12230174,
+    "Caption": "Hannah Harnois, who is homeless, smokes a cigarette in her tent on Utah Street in San Francisco.",
+    "Credit": "Gabrielle Lurie, The Chronicle"
   },
   {
     "Day": 2,
-    "Summary": "Huge crowds take part in Women's Marches in Washington, D.C., San Francisco, Oakland and many other U.S. cities."
+    "Summary": "Huge crowds take part in Women's Marches in Washington, D.C., San Francisco, Oakland and many other U.S. cities.",
+    "Photo": 12234353,
+    "Caption": "Gina Christo (center) cheers during the rally at the Women’s March in Washington.",
+    "Credit": "Gabrielle Lurie, The Chronicle"
   },
   {
     "Day": 1,
-    "Summary": "Donald Trump sworn in as 45th president of the United States. Thousand of supporters and opponents crowd into Washington, D.C. Protesters take to streets in San Francisco and Oakland."
+    "Summary": "Donald Trump is sworn in as the 45th president of the United States. Thousand of supporters and opponents crowd into Washington, D.C. Protesters take to streets in San Francisco and Oakland.",
+    "Photo": 12229122,
+    "Caption": "President Trump waves after taking the oath of office as his wife, Melania, holds the Bible, and Tiffany Trump looks out to the crowd.",
+    "Credit": "Associated Press"
   }
 ]
