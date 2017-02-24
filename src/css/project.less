@@ -55,7 +55,9 @@ body {
   font-family: @block-graphics;
   margin-top: 30px;
   @media @mobile {
+    margin-left: 10px;
     margin-top: 20px;
+    text-align: center;
   }
   // text-align: center;
   .search {
@@ -72,8 +74,11 @@ body {
     width: 80%;
     font-size: 14px;
     @media @mobile {
-      width: 90%;
+      width: 95%;
       font-size: 16px;
+      display: block;
+      margin: auto;
+      margin-top: 5px;
     }
   }
 }
@@ -114,6 +119,9 @@ body {
 .filter-instructions, .sub-filter-instructions {
   text-align: center;
   padding-bottom: 5px;
+  @media @mobile {
+    padding: 10px;
+  }
 }
 .filter-container {
   text-align: center;
