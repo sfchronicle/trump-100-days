@@ -1,5 +1,40 @@
 [
   {
+    "Day": 41,
+    "Date": "Mar.1 ",
+    "Topic": "Immigration, Executive order, Courts, Travel ban, Trump Today",
+    "Headline": "President delays signing new travel ban",
+    "Link": "http://www.sfchronicle.com/politics/article/Trump-Today-President-delays-signing-new-travel-10968306.php"
+  },
+  {
+    "Day": 41,
+    "Date": "Mar. 1",
+    "Topic": "Cabinet, Russia, Congress, Democrats",
+    "Headline": "Pelosi, other Dems urge Sessions to resign over his contact with Russians",
+    "Link": "http://www.sfchronicle.com/news/article/Pelosi-urges-Sessions-to-resign-over-his-contact-10970798.php"
+  },
+  {
+    "Day": 41,
+    "Date": "Mar. 1",
+    "Topic": "Immigration, Economy, Tech",
+    "Headline": "Merit-based' immigration could help tech firms but hurt families",
+    "Link": "http://www.sfchronicle.com/business/article/Merit-based-immigration-could-help-tech-10970244.php"
+  },
+  {
+    "Day": 41,
+    "Date": "Mar. 1",
+    "Topic": "Republicans, California",
+    "Headline": "California Republicans: The new party of the poor?",
+    "Link": "http://www.sfchronicle.com/politics/article/California-Republicans-The-new-party-of-the-poor-10970235.php"
+  },
+  {
+    "Day": 41,
+    "Date": "Mar. 1",
+    "Topic": "Congress, Taxes, Health care, Immigration ",
+    "Headline": "Trump's ambitious agenda comes with no plan to carry it out",
+    "Link": "http://www.sfchronicle.com/politics/article/Trump-s-ambitious-agenda-comes-with-no-plan-to-10970070.php"
+  },
+  {
     "Day": 40,
     "Date": "Feb. 28",
     "Topic": "Trump Today, Education",
@@ -58,7 +93,7 @@
   {
     "Day": 39,
     "Date": "Feb. 27",
-    "Topic": "Trump and California, Immigration, Trump resistance ",
+    "Topic": "California, Immigration, Trump resistance ",
     "Headline": "Lawmakers seek public records on Trump immigration crackdown",
     "Link": "http://www.sfchronicle.com/news/article/Lawmakers-seek-public-records-on-Trump-10963218.php"
   },
@@ -138,6 +173,13 @@
     "Topic": "Media, Trump Today",
     "Headline": "Trump Today: Some news outlets blocked from Trump 'gaggle'",
     "Link": "http://www.sfchronicle.com/news/article/Trump-Today-Some-news-outlets-blocked-from-White-10957603.php"
+  },
+  {
+    "Day": 36,
+    "Date": "Feb. 24",
+    "Topic": "Executive orders, Economy, Business, Trump Today",
+    "Headline": "Trump Today: Executive order takes aim at \"excessive\" regulations",
+    "Link": "http://www.sfchronicle.com/business/article/Trump-today-Executive-order-takes-aim-at-10957189.php"
   },
   {
     "Day": 36,
