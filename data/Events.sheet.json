@@ -1,8 +1,50 @@
 [
   {
+    "Day": 40,
+    "Date": "Feb. 28",
+    "Topic": "Trump Today, Education",
+    "Headline": "Historically Black Colleges now White House priority",
+    "Link": "http://www.sfchronicle.com/news/article/Trump-Today-Historically-Black-Colleges-now-10966095.php"
+  },
+  {
+    "Day": 40,
+    "Date": "Feb. 28",
+    "Topic": "Trump Today, Environment, Executive order",
+    "Headline": "Executive order takes aim at Obama-era water rule",
+    "Link": "http://www.sfchronicle.com/news/article/Trump-Today-Executive-order-takes-aim-at-10965653.php"
+  },
+  {
+    "Day": 40,
+    "Date": "Feb. 28",
+    "Topic": "Trump Today, Guns, Congress",
+    "Headline": "President rolls back Obama-era gun regulations",
+    "Link": "http://www.sfchronicle.com/nation/article/Trump-Today-President-rolls-back-Obama-era-gun-10966920.php"
+  },
+  {
+    "Day": 40,
+    "Date": "Feb. 28",
+    "Topic": "Trump resistance, Democrats, Homelessness",
+    "Headline": "Jesse Jackson's take on Trump from Tenderloin shelter",
+    "Link": "http://www.sfchronicle.com/politics/article/Trump-sticks-to-his-themes-and-expects-Congress-10967543.php"
+  },
+  {
+    "Day": 40,
+    "Date": "Feb. 28",
+    "Topic": "Congress, Trump soundoffs, Health care, Taxes, Economy",
+    "Headline": "Trump sticks to his themes and expects Congress to go along",
+    "Link": "http://www.sfchronicle.com/politics/article/Trump-sticks-to-his-themes-and-expects-Congress-10967543.php"
+  },
+  {
+    "Day": 40,
+    "Date": "Feb. 28",
+    "Topic": "Congress, Immigration, Health care, Taxes, Economy, Trump soundoffs",
+    "Headline": "Trump sounds softer but proposals are same, and just as vague",
+    "Link": "http://www.sfchronicle.com/politics/article/Trump-sounds-softer-but-proposals-are-same-and-10967614.php"
+  },
+  {
     "Day": 39,
     "Date": "Feb. 27",
-    "Topic": "Trump and California, Transportation",
+    "Topic": "California, Transportation",
     "Headline": "Caltrain acts to keep electrification plan alive",
     "Link": "http://www.sfchronicle.com/bayarea/article/Caltrain-acts-to-keep-electrification-plan-alive-10964012.php"
   },
@@ -30,7 +72,7 @@
   {
     "Day": 39,
     "Date": "Feb. 27",
-    "Topic": "Congress, Transportation, Trump and California",
+    "Topic": "Congress, Transportation, California",
     "Headline": "With Trump hitting brakes on Caltrain upgrade, SF puts its cash on hold",
     "Link": "http://www.sfchronicle.com/bayarea/article/With-Trump-hitting-brakes-on-Caltrain-upgrade-10958273.php"
   },
@@ -58,7 +100,7 @@
   {
     "Day": 37,
     "Date": "Feb 25",
-    "Topic": "Immigration, courts, California, Courts",
+    "Topic": "Immigration, Courts, California, Courts",
     "Headline": "Immigration courts clogged with 2-year backlog",
     "Link": "http://www.sfchronicle.com/nation/article/Immigration-courts-clogged-with-2-year-backlog-10959762.php"
   },
