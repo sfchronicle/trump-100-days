@@ -1,7 +1,42 @@
 [
   {
+    "Day": 42,
+    "Date": "Mar. 2",
+    "Topic": "Republicans, Democrats",
+    "Headline": "At East Bay town hall, Democrats and Republicans get along",
+    "Link": "http://www.sfchronicle.com/news/article/At-East-Bay-town-hall-Democrats-and-Republicans-10973910.php"
+  },
+  {
+    "Day": 42,
+    "Date": "Mar. 2",
+    "Topic": "Abortion, Courts, Trump resistance",
+    "Headline": "The 'silver lining' to Trump's election for abortion rights",
+    "Link": "http://www.sfchronicle.com/politics/article/The-silver-lining-to-Trump-s-election-for-10973544.php"
+  },
+  {
+    "Day": 42,
+    "Date": "Mar. 2",
+    "Topic": "LGBT, Executive orders, Courts",
+    "Headline": "SF tells high court there's nothing to fear from trans bathrooms",
+    "Link": "http://www.sfchronicle.com/lgbt/article/SF-tells-high-court-there-s-nothing-to-fear-10973135.php#comments"
+  },
+  {
+    "Day": 42,
+    "Date": "Mar. 2",
+    "Topic": "Democrats, Cabinet, Russia, Congress, Republicans",
+    "Headline": "Democrats not satisfied with Sessions' recusal from any Russia probe",
+    "Link": "http://www.sfchronicle.com/politics/article/Democrats-not-satisfied-with-Sessions-recusal-10973336.php"
+  },
+  {
+    "Day": 42,
+    "Date": "Mar. 2",
+    "Topic": "Cabinet, Russia, Congress, Democrats, Republicans, Trump Today",
+    "Headline": "Sessions calls Russian contact claims 'false'",
+    "Link": "http://www.sfchronicle.com/nation/article/Trump-Today-Pelosi-accuses-Sessions-of-lying-10972144.php"
+  },
+  {
     "Day": 41,
-    "Date": "Mar.1 ",
+    "Date": "Mar. 1",
     "Topic": "Immigration, Executive order, Courts, Travel ban, Trump Today",
     "Headline": "President delays signing new travel ban",
     "Link": "http://www.sfchronicle.com/politics/article/Trump-Today-President-delays-signing-new-travel-10968306.php"
