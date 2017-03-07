@@ -12,5 +12,8 @@
   "image": "assets/trump_era_social.jpg",
   "sheets": ["1D0fxt2vI6qFuByklKdNNIL2VueU2sHXuJYOUqOUOyyA"],
   "production": false,
-  "embedded": false
+  "embedded": false,
+
+  "production_path": "trump-era", 
+  "staging_path": "trump-tracker"
 }

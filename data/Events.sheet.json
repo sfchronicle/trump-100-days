@@ -1,70 +1,210 @@
 [
   {
+    "Day": 46,
+    "Date": "March 6",
+    "Topic": "Business, Trump resistance, California",
+    "Headline": "Trump era is a new chapter for bookstore business",
+    "Link": "http://www.sfchronicle.com/news/article/Trump-era-is-a-new-chapter-for-bookstore-business-10981566.php"
+  },
+  {
+    "Day": 46,
+    "Date": "March 6",
+    "Topic": "Congress, Health care, Republicans",
+    "Headline": "GOP plan to replace health care plan is released",
+    "Link": "http://www.sfchronicle.com/business/article/GOP-plan-to-replace-health-care-plan-is-released-10982079.php"
+  },
+  {
+    "Day": 46,
+    "Date": "March 6",
+    "Topic": "Cabinet, Race relations, Immigration, Trump Today",
+    "Headline": "Carson refers to slaves as 'immigrants'",
+    "Link": "http://www.sfchronicle.com/nation/article/Trump-Today-Carson-refers-to-slaves-as-10981209.php"
+  },
+  {
+    "Day": 46,
+    "Date": "March 6",
+    "Topic": "Courts, Immigration, Travel ban, Cabinet",
+    "Headline": "Trump's new travel ban seeks to avoid 1st edict's flaws",
+    "Link": "http://www.sfchronicle.com/bayarea/article/Trump-s-new-travel-ban-seeks-to-avoid-1st-10981694.php"
+  },
+  {
+    "Day": 46,
+    "Date": "March 6",
+    "Topic": "Courts, Immigration, Travel ban",
+    "Headline": "New travel order may still have legal obstacles, analysts say",
+    "Link": "http://www.sfchronicle.com/nation/article/New-travel-order-may-still-have-legal-obstacles-10981089.php"
+  },
+  {
+    "Day": 46,
+    "Date": "March 6",
+    "Topic": "Courts, LGBT, Trump Today",
+    "Headline": "SCOTUS passes on transgender bathroom case",
+    "Link": "http://www.sfchronicle.com/nation/article/Trump-Today-SCOTUS-passes-on-transgender-10980003.php"
+  },
+  {
+    "Day": 46,
+    "Date": "March 6",
+    "Topic": "Executive order, Travel ban, Trump Today",
+    "Headline": "President signs revised travel order",
+    "Link": "http://www.sfchronicle.com/nation/article/Trump-Today-President-signs-revised-travel-order-10980257.php"
+  },
+  {
+    "Day": 45,
+    "Date": "March 5",
+    "Topic": "Trump resistance, Protests",
+    "Headline": "Activists try to build Women's March momentum with 1-day strike",
+    "Link": "http://www.sfchronicle.com/bayarea/article/Activists-try-to-build-Women-s-March-momentum-10978975.php"
+  },
+  {
+    "Day": 45,
+    "Date": "March 5",
+    "Topic": "Trump soundoffs, Obama, Congress, Russia",
+    "Headline": "Trump seeks Congress' help on wiretap claim; FBI disputes it",
+    "Link": "http://www.sfchronicle.com/news/politics/article/Trump-accuses-Obama-of-tapping-his-phones-10978164.php"
+  },
+  {
+    "Day": 45,
+    "Date": "March 5",
+    "Topic": "Trump resistance, Media",
+    "Headline": "Mother Jones magazine sees a surge in reader support",
+    "Link": "http://www.sfchronicle.com/business/article/Mother-Jones-magazine-sees-a-surge-in-reader-10979054.php"
+  },
+  {
+    "Day": 45,
+    "Date": "March 5",
+    "Topic": "Executive orders, Immigration, Travel ban, Courts",
+    "Headline": "Trump's puzzling strategy on old, new travel bans",
+    "Link": "http://www.sfchronicle.com/nation/article/Trump-s-puzzling-strategy-on-old-new-travel-10979022.php"
+  },
+  {
+    "Day": 45,
+    "Date": "March 5",
+    "Topic": "Trump soundoffs, Cabinet, Executive orders, Environment, Health care",
+    "Headline": "While Trump grabs Tweet spotlight, appointees make crucial changes",
+    "Link": "http://www.sfchronicle.com/politics/article/While-Trump-tweets-grab-spotlight-appointees-10978999.php"
+  },
+  {
+    "Day": 44,
+    "Date": "March 4",
+    "Topic": "Trump soundoffs, Russia, Obama",
+    "Headline": "Trump accuses Obama of tapping his phones, cites no evidence",
+    "Link": "http://www.sfchronicle.com/news/politics/article/Trump-alleges-Obama-had-Trump-phones-wiretapped-10976743.php"
+  },
+  {
+    "Day": 44,
+    "Date": "March 4",
+    "Topic": "Trump soundoffs, Congress, Cabinet",
+    "Headline": "Trump explores new highs, lows in just one week",
+    "Link": "http://www.sfchronicle.com/bayarea/williesworld/article/Trump-explores-new-highs-lows-in-just-one-week-10976448.php"
+  },
+  {
+    "Day": 44,
+    "Date": "March 4",
+    "Topic": "Trump resistance, Trump supporters, Protests",
+    "Headline": "Violence erupts at pro-Trump rally in Berkeley",
+    "Link": "http://www.sfchronicle.com/bayarea/article/Scattered-fist-fights-break-out-at-pro-Trump-10977508.php"
+  },
+  {
+    "Day": 43,
+    "Date": "March 4",
+    "Topic": "Trump soundoffs, Trump Today, Immigration, Obama",
+    "Headline": "Trump Today: President praises book slamming Obama on immigration",
+    "Link": "http://www.sfchronicle.com/bayarea/article/Trump-Today-President-praises-book-slamming-10975100.php"
+  },
+  {
+    "Day": 43,
+    "Date": "March 3",
+    "Topic": "Trump soundoffs, Trump Today, Democrats, California, Russia",
+    "Headline": "Trump calls for investigation into 2010 Pelosi-Russia meeting",
+    "Link": "http://www.sfchronicle.com/politics/article/Trump-calls-for-investigation-into-2010-10976303.php"
+  },
+  {
+    "Day": 43,
+    "Date": "March 3",
+    "Topic": "Sports, Immigration, Travel ban",
+    "Headline": "World sports threats to U.S. over Trump lack moral high ground",
+    "Link": "http://www.sfchronicle.com/sports/article/World-sports-threats-to-U-S-over-Trump-lack-10976147.php"
+  },
+  {
+    "Day": 43,
+    "Date": "March 3",
+    "Topic": "Immigration, California",
+    "Headline": "Under Trump, fast-track deportations could extend into Bay Area",
+    "Link": "http://www.sfchronicle.com/bayarea/article/Under-Trump-fast-track-deportations-could-extend-10975791.php"
+  },
+  {
+    "Day": 43,
+    "Date": "March 3",
+    "Topic": "Environment, Congress, Budget, California",
+    "Headline": "Will SF Bay restoration be a casualty of EPA cuts?",
+    "Link": "http://www.sfchronicle.com/politics/article/Will-SF-Bay-wetlands-restoration-be-a-casualty-of-10976125.php"
+  },
+  {
     "Day": 42,
-    "Date": "Mar. 2",
+    "Date": "March 2",
     "Topic": "Republicans, Democrats",
     "Headline": "At East Bay town hall, Democrats and Republicans get along",
     "Link": "http://www.sfchronicle.com/news/article/At-East-Bay-town-hall-Democrats-and-Republicans-10973910.php"
   },
   {
     "Day": 42,
-    "Date": "Mar. 2",
+    "Date": "March 2",
     "Topic": "Abortion, Courts, Trump resistance",
     "Headline": "The 'silver lining' to Trump's election for abortion rights",
     "Link": "http://www.sfchronicle.com/politics/article/The-silver-lining-to-Trump-s-election-for-10973544.php"
   },
   {
     "Day": 42,
-    "Date": "Mar. 2",
+    "Date": "March 2",
     "Topic": "LGBT, Executive orders, Courts",
     "Headline": "SF tells high court there's nothing to fear from trans bathrooms",
     "Link": "http://www.sfchronicle.com/lgbt/article/SF-tells-high-court-there-s-nothing-to-fear-10973135.php#comments"
   },
   {
     "Day": 42,
-    "Date": "Mar. 2",
+    "Date": "March 2",
     "Topic": "Democrats, Cabinet, Russia, Congress, Republicans",
     "Headline": "Democrats not satisfied with Sessions' recusal from any Russia probe",
     "Link": "http://www.sfchronicle.com/politics/article/Democrats-not-satisfied-with-Sessions-recusal-10973336.php"
   },
   {
     "Day": 42,
-    "Date": "Mar. 2",
+    "Date": "March 2",
     "Topic": "Cabinet, Russia, Congress, Democrats, Republicans, Trump Today",
     "Headline": "Sessions calls Russian contact claims 'false'",
     "Link": "http://www.sfchronicle.com/nation/article/Trump-Today-Pelosi-accuses-Sessions-of-lying-10972144.php"
   },
   {
     "Day": 41,
-    "Date": "Mar. 1",
+    "Date": "March 1",
     "Topic": "Immigration, Executive order, Courts, Travel ban, Trump Today",
     "Headline": "President delays signing new travel ban",
     "Link": "http://www.sfchronicle.com/politics/article/Trump-Today-President-delays-signing-new-travel-10968306.php"
   },
   {
     "Day": 41,
-    "Date": "Mar. 1",
+    "Date": "March 1",
     "Topic": "Cabinet, Russia, Congress, Democrats",
     "Headline": "Pelosi, other Dems urge Sessions to resign over his contact with Russians",
     "Link": "http://www.sfchronicle.com/news/article/Pelosi-urges-Sessions-to-resign-over-his-contact-10970798.php"
   },
   {
     "Day": 41,
-    "Date": "Mar. 1",
+    "Date": "March 1",
     "Topic": "Immigration, Economy, Tech",
     "Headline": "Merit-based' immigration could help tech firms but hurt families",
     "Link": "http://www.sfchronicle.com/business/article/Merit-based-immigration-could-help-tech-10970244.php"
   },
   {
     "Day": 41,
-    "Date": "Mar. 1",
+    "Date": "March 1",
     "Topic": "Republicans, California",
     "Headline": "California Republicans: The new party of the poor?",
     "Link": "http://www.sfchronicle.com/politics/article/California-Republicans-The-new-party-of-the-poor-10970235.php"
   },
   {
     "Day": 41,
-    "Date": "Mar. 1",
+    "Date": "March 1",
     "Topic": "Congress, Taxes, Health care, Immigration ",
     "Headline": "Trump's ambitious agenda comes with no plan to carry it out",
     "Link": "http://www.sfchronicle.com/politics/article/Trump-s-ambitious-agenda-comes-with-no-plan-to-10970070.php"
