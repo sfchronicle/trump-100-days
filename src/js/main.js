@@ -52,6 +52,8 @@ var qsa = s => Array.prototype.slice.call(document.querySelectorAll(s));
 qsa(".filter").forEach(function(f,index) {
   f.addEventListener("click", function(e) {
 
+    document.getElementById('searchbar').value = "";
+
     document.getElementById("allevents-wrapper").classList.add("active");
     document.getElementById("keyevents-wrapper").classList.remove("active");
     document.getElementById("keyevent").classList.remove("active");
