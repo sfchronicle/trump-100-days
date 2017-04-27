@@ -1,0 +1,883 @@
+/*
+Shims for Flexbox - should work on Safari and IE10+
+*/
+.display-flex {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+@font-face {
+  font-family: "AntennaRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/antenna/regular/antennaregular.eot");
+  src: url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/antenna/regular/antennaregular.eot?") format("embedded-opentype"), url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/antenna/regular/antennaregular.woff") format("woff"), url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/antenna/regular/antennaregular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "AntennaExtraLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/antenna/extralight/antennaextralight.eot");
+  src: url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/antenna/extralight/antennaextralight.eot?") format("embedded-opentype"), url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/antenna/extralight/antennaextralight.woff") format("woff"), url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/antenna/extralight/antennaextralight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "AntennaMedium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/antenna/2908d944-93cf-4073-8ab6-ff417bc9759a-2.eot");
+  src: url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/antenna/2908d944-93cf-4073-8ab6-ff417bc9759a-2.eot?") format("embedded-opentype"), url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/antenna/2908d944-93cf-4073-8ab6-ff417bc9759a-3.woff") format("woff"), url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/antenna/2908d944-93cf-4073-8ab6-ff417bc9759a-1.ttf") format("truetype");
+}
+@font-face {
+  font-family: "AntennaBold";
+  font-style: normal;
+  font-weight: bold;
+  src: url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/antenna/b9884997-4bb8-4ffa-ac3c-a2d5598fb1b2-2.eot");
+  src: url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/antenna/b9884997-4bb8-4ffa-ac3c-a2d5598fb1b2-2.eot?") format("embedded-opentype"), url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/antenna/b9884997-4bb8-4ffa-ac3c-a2d5598fb1b2-3.woff") format("woff"), url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/antenna/b9884997-4bb8-4ffa-ac3c-a2d5598fb1b2-1.ttf") format("truetype");
+}
+@font-face {
+  font-family: "AntennaBlack";
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/antenna/1ab9da94-2ce2-44e7-ab48-6d15380b8c97-2.eot");
+  src: url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/antenna/1ab9da94-2ce2-44e7-ab48-6d15380b8c97-2.eot?") format("embedded-opentype"), url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/antenna/1ab9da94-2ce2-44e7-ab48-6d15380b8c97-3.woff") format("woff"), url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/antenna/1ab9da94-2ce2-44e7-ab48-6d15380b8c97-1.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FarnhamText";
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/farnhamtext/ed626233-1ce5-4089-9d5b-9059102dadf9-2.eot");
+  src: url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/farnhamtext/ed626233-1ce5-4089-9d5b-9059102dadf9-2.eot?") format("embedded-opentype"), url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/farnhamtext/ed626233-1ce5-4089-9d5b-9059102dadf9-3.woff") format("woff"), url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/farnhamtext/ed626233-1ce5-4089-9d5b-9059102dadf9-1.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FarnhamTextBold";
+  font-style: normal;
+  font-weight: bold;
+  src: url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/farnhamtext/ed9e2917-f97e-4f03-b699-813967a6c002-2.eot");
+  src: url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/farnhamtext/ed9e2917-f97e-4f03-b699-813967a6c002-2.eot") format("embedded-opentype"), url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/farnhamtext/ed9e2917-f97e-4f03-b699-813967a6c002-3.woff") format("woff"), url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/farnhamtext/ed9e2917-f97e-4f03-b699-813967a6c002-1.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FarnhamDisplayLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/farnhamtext/display_light/farnhamdisplay-light.eot");
+  src: url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/farnhamtext/display_light/farnhamdisplay-light.eot") format("embedded-opentype"), url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/farnhamtext/display_light/farnhamdisplay-light.woff") format("woff"), url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/farnhamtext/display_light/farnhamdisplay-light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DispatchLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/dispatch/light/dispatch-light.eot");
+  src: url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/dispatch/light/dispatch-light.eot") format("embedded-opentype"), url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/dispatch/light/dispatch-light.woff") format("woff"), url("https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/shared/fonts/dispatch/light/dispatch-light.ttf") format("truetype");
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  padding: 0;
+  margin: 0;
+  touch-action: manipulation;
+  background-color: #fff;
+  font-size: 21px;
+  line-height: 1.58;
+  color: #333;
+  font-family: "FarnhamText", Georgia, serif;
+}
+main {
+  display: block;
+}
+.container {
+  margin-top: 37px;
+}
+a {
+  color: #6C85A5;
+  text-decoration: none;
+  outline: 0 !important;
+}
+a:hover {
+  color: #546c8a;
+}
+a img {
+  border: none;
+}
+a :hover {
+  color: #546c8a;
+}
+hr {
+  margin-top: 2em;
+  border-top: 1px solid #ccc;
+  border-bottom: none;
+  width: 75%;
+}
+.max {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+.text-hed {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  margin-top: 35px;
+  text-align: center;
+  font-family: "FarnhamTextBold", Georgia, serif;
+}
+.text-hed.padded {
+  padding-top: 10px;
+}
+p {
+  max-width: 730px;
+  margin: auto;
+  padding: 0 15px;
+  margin-bottom: 1em;
+}
+p a {
+  text-decoration: none;
+  color: #6C85A5;
+}
+@media (max-width: 480px) {
+  p {
+    font-size: 0.8em;
+  }
+}
+li {
+  max-width: 650px;
+  margin: 0 auto;
+}
+@media (max-width: 480px) {
+  li {
+    margin: 0 5px;
+  }
+}
+.hed {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: "AntennaExtraLight", Helvetica Neue, Helvetica, sans-serif;
+  font-weight: bold;
+}
+@media (max-width: 480px) {
+  .hed {
+    padding: 0 10px;
+  }
+}
+.chart-hed {
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+@media (max-width: 480px) {
+  .chart-hed {
+    margin: 0 10px;
+    font-size: 20px;
+  }
+}
+.chatter {
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 5px;
+  font-family: "AntennaExtraLight", Helvetica Neue, Helvetica, sans-serif;
+  margin: 20px auto;
+}
+.chatter.lesspadding {
+  margin: 10px auto;
+}
+@media (max-width: 768px) {
+  .chatter {
+    padding: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .chatter {
+    padding: 5px;
+  }
+}
+.outer {
+  max-width: 900px;
+  margin: 30px auto;
+}
+@media (max-width: 768px) {
+  .outer {
+    margin: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .outer {
+    margin: 10px;
+  }
+}
+.source,
+.credit {
+  clear: left;
+  padding-top: 10px;
+  font-size: 12px;
+  font-style: italic;
+  font-family: "AntennaExtraLight", Helvetica Neue, Helvetica, sans-serif;
+}
+@media (max-width: 768px) {
+  .source,
+  .credit {
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 480px) {
+  .source,
+  .credit {
+    padding: 10px;
+  }
+}
+.source.padded,
+.credit.padded {
+  padding-bottom: 40px;
+}
+svg {
+  display: block;
+  margin: auto;
+}
+@media (max-width: 480px) {
+  svg {
+    margin: 0;
+  }
+}
+text {
+  font-size: 14px;
+  font-family: "AntennaExtraLight", Helvetica Neue, Helvetica, sans-serif;
+}
+@media (max-width: 480px) {
+  text {
+    font-size: 12px;
+  }
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: grey;
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}
+.title-container {
+  background-image: url("assets/photos/test-img.jpg");
+}
+.title-container.top-margin {
+  margin-top: 3.5em;
+}
+.author {
+  margin-top: 10px;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.date {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.title {
+  font-family: "FarnhamTextBold", Georgia, serif;
+  font-size: 60px;
+  padding: 0 10px;
+  text-align: center;
+  margin: 10px auto 0;
+  max-width: 835px;
+}
+.title.long {
+  font-size: 50px;
+  line-height: 1.2;
+  margin: 20px auto 0;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.title.long.text-width {
+  max-width: 800px;
+}
+@media (max-width: 480px) {
+  .title.long {
+    font-size: 1.8em;
+  }
+}
+.over-img {
+  position: absolute;
+  bottom: 160px;
+  z-index: 2;
+  color: white;
+  left: 0;
+  right: 0;
+}
+.specialhead-top {
+  color: #6C85A5;
+  font-family: "DispatchLight", Georgia, serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+@media (max-width: 480px) {
+  .specialhead-top {
+    font-size: 13px;
+    vertical-align: text-top;
+  }
+}
+.specialhead {
+  text-align: center;
+  text-transform: uppercase;
+  color: #9bb5d8;
+  font-family: "DispatchLight", Georgia, serif;
+  font-size: 15px;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.61);
+  max-width: 320px;
+  padding: 2px 0px;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  left: 0;
+  height: 37px;
+}
+.link {
+  padding: 5px 10px 0 7px;
+  vertical-align: 3px;
+  font-size: 18px;
+  font-family: "FarnhamText", Georgia, serif;
+  cursor: pointer;
+}
+.link.active {
+  background: #a2a2a2;
+  color: #696969;
+}
+.link.special a {
+  color: #6C85A5;
+}
+.link.social {
+  float: right;
+  margin: 0 6px;
+  padding: 4px 2px;
+}
+.link.social a {
+  color: #6C85A5;
+}
+.link.email {
+  margin-right: 10px;
+}
+.logo-link {
+  cursor: pointer;
+  margin: 0 0 0 10px;
+  vertical-align: 0;
+}
+.logo-link img {
+  opacity: 1;
+  height: 20px;
+}
+.link,
+.logo-link {
+  display: inline-block;
+}
+@media (max-width: 490px) {
+  .desk-logo {
+    display: none;
+  }
+}
+header {
+  background: #fff;
+  overflow: visible;
+  opacity: 0.9;
+  -webkit-box-shadow: 0 0 6px 0 #696969;
+  -moz-box-shadow: 0 0 6px 0 #696969;
+  box-shadow: 0 0 6px 0 #696969;
+}
+header a {
+  text-decoration: none;
+}
+header .logo {
+  float: left;
+  padding: 6px 0 0 8px;
+  margin: 0;
+}
+header .logo img {
+  vertical-align: text-bottom;
+  width: 180px;
+}
+@media (max-width: 490px) {
+  header .logo {
+    display: none;
+  }
+}
+header .mobile-logo {
+  display: none;
+}
+@media (max-width: 490px) {
+  header .mobile-logo {
+    display: inline;
+  }
+}
+header .mobile-logo img {
+  height: 16px;
+  vertical-align: baseline;
+}
+header::after {
+  clear: both;
+  content: " ";
+  display: block;
+}
+.caption {
+  text-align: left;
+  font-family: "FarnhamText", Georgia, serif;
+  font-size: 12px;
+  margin-top: 5px;
+  padding: 0 10px;
+  max-width: 100%;
+}
+.caption.landing {
+  margin-bottom: 2.5em;
+}
+.byline {
+  color: #6D6D6D;
+  font-style: italic;
+}
+.background-img {
+  height: 800px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  display: block;
+  z-index: 1;
+}
+@media (max-width: 480px) {
+  .background-img {
+    height: 640px;
+  }
+}
+.full-width-img {
+  margin: 2em auto;
+  width: 100%;
+}
+.full-width-img img {
+  width: 100%;
+}
+.inline-img {
+  max-width: 730px;
+  margin: 2em auto;
+}
+.inline-img .caption {
+  padding: 0;
+}
+@media (max-width: 730px) {
+  .inline-img .caption {
+    padding: 0 10px;
+  }
+}
+.inline-graphic {
+  max-width: 640px;
+  margin: 2em auto;
+  padding: 0 10px;
+}
+.too-big {
+  text-align: center;
+}
+.too-big img {
+  max-width: 80%;
+  margin: 0px auto;
+}
+@media (max-width: 480px) {
+  .too-big img {
+    max-width: 100%;
+  }
+}
+.float-img-container {
+  max-width: 735px;
+  width: 100%;
+  margin: 0 auto;
+}
+.float-img {
+  max-width: 420px;
+}
+.float-img.vertical {
+  max-width: 300px;
+}
+@media (max-width: 861px) {
+  .float-img {
+    float: none;
+    margin: 2em auto;
+  }
+}
+.float-img .caption {
+  padding: 0;
+}
+@media (max-width: 730px) {
+  .float-img {
+    padding: 0 10px;
+  }
+}
+.float-img.left {
+  float: left;
+  margin: 1em 1.5em 0.5em -7.5em;
+}
+@media (max-width: 1072px) {
+  .float-img.left {
+    float: none;
+    margin: 2em auto;
+  }
+}
+.float-img.right {
+  float: right;
+  margin: 1em -7.5em 0.5em 1.5em;
+}
+@media (max-width: 1072px) {
+  .float-img.right {
+    float: none;
+    margin: 2em auto;
+  }
+}
+.float-img.center {
+  margin: 0 auto;
+  max-width: 600px;
+}
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.dont-miss {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-family: "AntennaExtraLight", Helvetica Neue, Helvetica, sans-serif;
+}
+@media (max-width: 480px) {
+  .dont-miss {
+    margin-bottom: 40px;
+  }
+}
+.dont-miss .story {
+  -webkit-flex: 0 0 25%;
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+}
+@media (max-width: 480px) {
+  .dont-miss .story {
+    -webkit-flex: 1 1 50%;
+    -ms-flex: 1 1 50%;
+    flex: 1 1 50%;
+  }
+}
+.dont-miss .padded {
+  padding: 10px;
+}
+.dont-miss .small {
+  font-weight: bold;
+  font-size: 15px;
+}
+.dont-miss img {
+  width: 100%;
+}
+footer {
+  background: #222222;
+  opacity: 0.95;
+  padding: 0 10px;
+  position: relative;
+  z-index: 99;
+  margin-top: 10px;
+  clear: both;
+}
+footer .logo {
+  float: left;
+  margin-right: 10px;
+}
+footer .logo img {
+  padding: 10px 0;
+  width: 180px;
+  vertical-align: bottom;
+}
+footer::after {
+  clear: both;
+  content: " ";
+  display: block;
+}
+.credits {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-family: "FarnhamText", Georgia, serif;
+  width: 80%;
+}
+@media (max-width: 480px) {
+  .credits {
+    width: 100%;
+  }
+}
+.credits .entry {
+  padding-bottom: 10px;
+}
+.inline-img img {
+  width: 100%;
+}
+.drop-down {
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+#select-day,
+.select-text {
+  font-family: "AntennaExtraLight", Helvetica Neue, Helvetica, sans-serif;
+  font-size: 16px;
+  display: inline-block;
+}
+#select-day {
+  width: 100px;
+  padding: 10px;
+}
+.select-text {
+  font-family: "AntennaRegular", Helvetica Neue, Helvetica, sans-serif;
+}
+body {
+  font-family: "AntennaExtraLight", Helvetica Neue, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.outer {
+  max-width: 900px;
+  margin: auto;
+}
+.search-container {
+  font-family: "AntennaExtraLight", Helvetica Neue, Helvetica, sans-serif;
+  margin-top: 30px;
+}
+@media (max-width: 480px) {
+  .search-container {
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+.search-container .search {
+  font-family: "AntennaRegular", Helvetica Neue, Helvetica, sans-serif;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.search-container input {
+  margin-left: 5px;
+  border-radius: 5px;
+  border: 1px solid #696969;
+  font-family: "AntennaExtraLight", Helvetica Neue, Helvetica, sans-serif;
+  padding: 5px;
+  width: 80%;
+  font-size: 14px;
+}
+@media (max-width: 480px) {
+  .search-container input {
+    width: 95%;
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+  }
+}
+.sub-filter-container {
+  display: none;
+}
+.sub-filter-container.active {
+  padding-top: 20px;
+  display: block;
+}
+.filter {
+  cursor: pointer;
+  display: inline-block;
+  padding: 3px 10px;
+  margin: 4px 2px;
+  font-family: "AntennaRegular", Helvetica Neue, Helvetica, sans-serif;
+}
+.filter.topic {
+  border: 1px solid #005187;
+  color: #005187;
+}
+.filter.topic.active {
+  color: white;
+  background: #005187;
+}
+.filter.subfilter {
+  color: #007fd3;
+  border: 1px solid #007fd3;
+}
+.filter.subfilter.active {
+  color: white;
+  background: #007fd3;
+}
+.filter-instructions,
+.sub-filter-instructions {
+  text-align: center;
+  padding-bottom: 5px;
+}
+@media (max-width: 480px) {
+  .filter-instructions,
+  .sub-filter-instructions {
+    padding: 10px;
+  }
+}
+.filter-container {
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+}
+.logo-link {
+  padding-top: 9px;
+}
+.hed {
+  max-width: 900px;
+  margin: auto;
+  padding-top: 40px;
+}
+.hed img {
+  width: 100%;
+}
+.hed.mobile {
+  display: none;
+}
+@media (max-width: 480px) {
+  .hed.mobile {
+    display: block;
+  }
+}
+@media (max-width: 480px) {
+  .hed.desktop {
+    display: none;
+  }
+}
+.chatter {
+  max-width: 900px;
+  padding: 0 30px;
+}
+.event-wrapper {
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.day-title {
+  display: none;
+}
+.day-title.active {
+  display: block;
+}
+.day-title .day-hed {
+  font-family: "AntennaRegular", Helvetica Neue, Helvetica, sans-serif;
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  color: #005187;
+}
+.day-title .day-text {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 50px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+@media (max-width: 480px) {
+  .day-title .day-text {
+    padding: 0 10px;
+    padding-bottom: 0;
+  }
+}
+.divider {
+  width: 80%;
+  margin: auto;
+  border-bottom: 2px #005187 solid;
+  height: 2px;
+}
+.divider.bottom {
+  margin-top: 50px;
+  border-bottom: 1px #696969 solid;
+}
+.credits {
+  font-family: "AntennaExtraLight", Helvetica Neue, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.credits .entry {
+  padding: 0;
+  padding-bottom: 15px;
+}
+@media (max-width: 480px) {
+  .credits {
+    padding: 0 20px;
+  }
+}
+.event-item {
+  display: none;
+  font-family: "AntennaExtraLight", Helvetica Neue, Helvetica, sans-serif;
+  padding-bottom: 30px;
+  font-size: 16px;
+  -webkit-flex: 0 0 30%;
+  -ms-flex: 0 0 30%;
+  flex: 0 0 30%;
+  margin: 1.5%;
+  background: #e6e6e6;
+  padding: 30px;
+}
+.event-item.active {
+  display: block;
+}
+@media (max-width: 480px) {
+  .event-item {
+    -webkit-flex: 0 0 95%;
+    -ms-flex: 0 0 95%;
+    flex: 0 0 95%;
+    margin: 2.5%;
+    padding: 10px;
+  }
+}
+.event-item .tag,
+.event-item .day,
+.event-item .tags,
+.event-item .readme {
+  padding-bottom: 10px;
+}
+.event-item .event {
+  font-family: "AntennaRegular", Helvetica Neue, Helvetica, sans-serif;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+.event-item .tag {
+  margin: 4px;
+  display: inline-block;
+  font-family: "AntennaExtraLight", Helvetica Neue, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 0;
+  font-style: italic;
+  margin: 0 4px;
+  color: #0070ba;
+}
+.event-item .fa-external-link {
+  padding-left: 10px;
+}
+.event-item .readme {
+  cursor: pointer;
+}
+.event-item .readme .fa-external-link {
+  padding-right: 10px;
+}
