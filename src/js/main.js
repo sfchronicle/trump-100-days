@@ -4,6 +4,23 @@ var filter = document.getElementsByClassName('filter');
 
 // searchbar code
 $("#searchbar").bind("input propertychange", function () {
+
+  document.getElementById("allevents-wrapper").classList.add("active");
+  document.getElementById("keyevents-wrapper").classList.remove("active");
+  document.getElementById("keyevent").classList.remove("active");
+
+  // remove active class from all other filters
+  var filter_list = document.getElementsByClassName("filter");
+  for (var i=0; i<filter_list.length; i++) {
+    filter_list[i].classList.remove("active");
+  };
+
+  // hide all subfilter containers
+  var subfilter_list = document.getElementsByClassName("sub-filter-container");
+  for (var i=0; i<subfilter_list.length; i++) {
+    subfilter_list[i].classList.remove("active");
+  };
+
   var filter = $(this).val().toLowerCase().replace(/ /g,'');
   var class_match = 0;
 
@@ -137,6 +154,8 @@ qsa(".filter").forEach(function(f,index) {
 document.getElementById("keyevent").addEventListener("click",function() {
   document.getElementById("keyevents-wrapper").classList.add("active");
   document.getElementById("allevents-wrapper").classList.remove("active");
+
+  document.getElementById('searchbar').value = "";
 
   // remove active class from all other filters
   var filter_list = document.getElementsByClassName("filter");
