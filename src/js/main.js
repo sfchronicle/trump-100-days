@@ -148,6 +148,5 @@ document.getElementById("keyevent").addEventListener("click",function() {
     subfilter_list[i].classList.remove("active");
   };
 
-  console.log(this);
   this.classList.add("active");
 });
