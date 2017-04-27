@@ -30,7 +30,7 @@
 
       <div class="filter-instructions">Click here to check out the key events:</div>
       <div class="big-filter-container">
-        <div class="filter topic big-filter" id="keyevent">Key events</div>
+        <div class="big-filter" id="keyevent">Key events</div>
       </div>
 
       <div class="filter-instructions">Or click on the buttons below to see links to stories about a particular topic or use the search box to look up other subjects:</div>
@@ -60,6 +60,24 @@
         <input class="input" id="searchbar" type="text" placeholder='Try "Day 17," "Supreme Court" or "SF" ...'>
       </div>
 
+      <div class="event-wrapper keyevents" id="keyevents-wrapper">
+        <% json.Events.forEach(function(d){ %>
+            <% if (d.KeyEvent == "Yes"){ %>
+              <div class="keyevent active">
+                <div class="event"><%=d.Headline%><a href="<%=d.Link%>" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+                <div class="day">Day <%=d.Day%> ( <%=d.Date %> )</div>
+                <% var array = [d.Topic].toString().split(','); %>
+                <div class="tags">
+                  <% array.forEach(function(t){ %>
+                    <div class="tag <%=t.toString().toLowerCase().replace(/\s/g,'')%>"><%=t%></div>
+                  <% }) %>
+                </div>
+              </div>
+            <% } %>
+          <% }); %>
+      </div>
+
+      <div id="allevents-wrapper" class="active">
       <% json.Days.forEach(function(dd){ %>
         <div class="day-title active" id="day<%=dd.Day%>">
           <div class="day-hed">Day <%=dd.Day%></div>
@@ -76,7 +94,6 @@
         <div class="event-wrapper <%=dd.Day%>">
           <% json.Events.forEach(function(d){ %>
             <% if (d.Day == dd.Day){ %>
-              <% console.log(d.KeyEvent) %>
               <% if (d.KeyEvent == "Yes"){ %>
                 <div class="event-item active <%=[d.Topic].toString().toLowerCase().replace(',','').replace(/\s/g,'')%> <%=[d.Headline]%> day<%=dd.Day%> keyevent">
               <% } else { %>
@@ -89,13 +106,13 @@
                     <% array.forEach(function(t){ %>
                       <div class="tag <%=t.toString().toLowerCase().replace(/\s/g,'')%>"><%=t%></div>
                     <% }) %>
-              </div>
+                  </div>
+                </div>
+              <% } %>
+            <% }); %>
           </div>
-          <% } %>
         <% }); %>
       </div>
-      <% }); %>
-
     </div>
 
     <%= t.include("partials/_footer.html") %>

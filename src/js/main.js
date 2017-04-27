@@ -52,6 +52,10 @@ var qsa = s => Array.prototype.slice.call(document.querySelectorAll(s));
 qsa(".filter").forEach(function(f,index) {
   f.addEventListener("click", function(e) {
 
+    document.getElementById("allevents-wrapper").classList.add("active");
+    document.getElementById("keyevents-wrapper").classList.remove("active");
+    document.getElementById("keyevent").classList.remove("active");
+
     var classes = f.getAttribute("class");
     var classes_ls = classes.split(" ");
 
@@ -112,6 +116,7 @@ qsa(".filter").forEach(function(f,index) {
           event_list[j].classList.remove("active");
         }
       }
+
       // show days that have events
       for (var k=0; k<day_list.length; k++) {
         var kday = k+1;
@@ -125,4 +130,24 @@ qsa(".filter").forEach(function(f,index) {
     }
 
   });
+});
+
+document.getElementById("keyevent").addEventListener("click",function() {
+  document.getElementById("keyevents-wrapper").classList.add("active");
+  document.getElementById("allevents-wrapper").classList.remove("active");
+
+  // remove active class from all other filters
+  var filter_list = document.getElementsByClassName("filter");
+  for (var i=0; i<filter_list.length; i++) {
+    filter_list[i].classList.remove("active");
+  };
+
+  // hide all subfilter containers
+  var subfilter_list = document.getElementsByClassName("sub-filter-container");
+  for (var i=0; i<subfilter_list.length; i++) {
+    subfilter_list[i].classList.remove("active");
+  };
+
+  console.log(this);
+  this.classList.add("active");
 });
