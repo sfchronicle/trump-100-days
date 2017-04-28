@@ -119,21 +119,19 @@ body {
   // border-radius: 5px;
   font-family: @med-graphics;
   &.topic {
-    color: white;
-    background: @pres-blue;
+    border: 1px solid @pres-blue;
+    color: @pres-blue;
     &.active {
-      border: 1px solid @pres-blue;
-      color: @pres-blue;
-      background: white;
+      color: white;
+      background: @pres-blue;
     }
   }
   &.subfilter {
-    color: white;
-    background: lighten(@pres-blue,15%);
+    color: lighten(@pres-blue,15%);
+    border: 1px solid lighten(@pres-blue,15%);
     &.active {
-      color: lighten(@pres-blue,15%);
-      border: 1px solid lighten(@pres-blue,15%);
-      background: white;
+      color: white;
+      background: lighten(@pres-blue,15%);
     }
   }
 }
@@ -154,14 +152,13 @@ body {
     margin: 0px auto 10px auto;
   }
   text-align: center;
+  color: @pres-red;
+  border: 2px solid @pres-red;
   text-transform: uppercase;
   font-family: @bold-graphics;
-  color: white;
-  background: @pres-red;
   &.active {
-    color: @pres-red;
-    border: 2px solid @pres-red;
-    background: white;
+    color: white;
+    background: @pres-red;
   }
 }
 
