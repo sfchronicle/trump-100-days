@@ -28,9 +28,8 @@
       </div>
       <div class="chatter">President Trump came into office promising to change Washington and “make America great again.” He has moved aggressively to bring about that change, delighting his supporters but deepening the divide between them and the rest of the country. Here are all the stories The Chronicle has reported on the new administration since Trump was sworn in on Jan. 20.</div>
 
-      <div class="filter-instructions">Click here to check out the key events:</div>
       <div class="big-filter-container">
-        <div class="big-filter" id="keyevent">Key events</div>
+        <div class="big-filter" id="keyevent">Click here for key events</div>
       </div>
 
       <div class="filter-instructions">Or click on the buttons below to see links to stories about a particular topic or use the search box to look up other subjects:</div>
@@ -59,6 +58,8 @@
         <span class="search">Search by keywords  </span>
         <input class="input" id="searchbar" type="text" placeholder='Try "Day 17," "Supreme Court" or "SF" ...'>
       </div>
+
+      <div class="search-noresults hide" id="search-noresults">No events match your search.<br>Try new key words.</div>
 
       <div class="event-wrapper keyevents" id="keyevents-wrapper">
         <% json.Events.forEach(function(d){ %>

@@ -23,6 +23,7 @@ $("#searchbar").bind("input propertychange", function () {
 
   var filter = $(this).val().toLowerCase().replace(/ /g,'');
   var class_match = 0;
+  var event_count = 0;
 
   // reset all the days
   var day_list = document.getElementsByClassName("day-title");
@@ -41,6 +42,7 @@ $("#searchbar").bind("input propertychange", function () {
     if (class_match > 0) {
       $(this).addClass("active");
       days_vector[this.parentNode.classList[1]-1] = 1;
+      event_count += 1;
     } else {
       $(this).removeClass("active");
     }
@@ -58,6 +60,12 @@ $("#searchbar").bind("input propertychange", function () {
     }
   }
 
+  if (event_count == 0) {
+    document.getElementById("search-noresults").classList.remove("hide");
+  } else {
+    document.getElementById("search-noresults").classList.add("hide");
+  }
+
 });
 
 
@@ -68,6 +76,8 @@ $("#searchbar").bind("input propertychange", function () {
 var qsa = s => Array.prototype.slice.call(document.querySelectorAll(s));
 qsa(".filter").forEach(function(f,index) {
   f.addEventListener("click", function(e) {
+
+    document.getElementById("search-noresults").classList.add("hide");
 
     document.getElementById('searchbar').value = "";
 
@@ -156,6 +166,7 @@ document.getElementById("keyevent").addEventListener("click",function() {
   document.getElementById("allevents-wrapper").classList.remove("active");
 
   document.getElementById('searchbar').value = "";
+  document.getElementById("search-noresults").classList.add("hide");
 
   // remove active class from all other filters
   var filter_list = document.getElementsByClassName("filter");
