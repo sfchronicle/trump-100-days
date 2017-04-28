@@ -2,6 +2,12 @@ require("./lib/social"); //Do not delete
 
 var filter = document.getElementsByClassName('filter');
 
+if (screen.width <= 480) {
+  var screenPos = 200;
+} else {
+  var screenPos = 150;
+}
+
 // searchbar code
 $("#searchbar").bind("input propertychange", function () {
 
@@ -90,6 +96,7 @@ qsa(".filter").forEach(function(f,index) {
 
     // clicked on a filter level filter
     if (classes.indexOf("subfilter") == -1) {
+
       // hide all subfilter containers to start
       var subfilter_list = document.getElementsByClassName("sub-filter-container");
       for (var i=0; i<subfilter_list.length; i++) {
@@ -110,6 +117,7 @@ qsa(".filter").forEach(function(f,index) {
 
     // clicked on a subfilter level filter
     } else {
+
       // we just need to add an active class to the subfilter
       var filter_list = document.getElementsByClassName("subfilter");
       for (var i=0; i<filter_list.length; i++) {
@@ -117,6 +125,8 @@ qsa(".filter").forEach(function(f,index) {
       };
       f.classList.add("active");
     }
+
+    $('body,html').animate({ scrollTop: $('#top-of-content').position().top-screenPos },200);
 
     // reset all the days
     var days_vector = new Array(100+1).join('0').split('').map(parseFloat);
@@ -167,6 +177,8 @@ document.getElementById("keyevent").addEventListener("click",function() {
 
   document.getElementById('searchbar').value = "";
   document.getElementById("search-noresults").classList.add("hide");
+
+  $('body,html').animate({ scrollTop: $('#top-of-content').position().top-10 },200);
 
   // remove active class from all other filters
   var filter_list = document.getElementsByClassName("filter");
